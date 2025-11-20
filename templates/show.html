@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+
+{% block title %}{{ report_card.title }} - Report Card{% endblock %}
+
+{% block extra_styles %}
+<style>
+    .report-header {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        padding: 30px;
+        border-radius: 8px;
+        margin-bottom: 30px;
+    }
+    
+    .report-type-badge {
+        display: inline-block;
+        padding: 8px 16px;
+        background-color: rgba(255, 255, 255, 0.2);
+        border-radius: 20px;
+        font-size: 0.9em;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    
+    .report-header h2 {
+        color: white;
+        margin: 10px 0;
+    }
+    
+    .report-header p {
+        opacity: 0.9;
+        margin-top: 10px;
+    }
+    
+    .data-section {
+        background-color: #f8f9fa;
+        padding: 25px;
+        border-radius: 8px;
+        margin-top: 20px;
+    }
+    
+    .data-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+        margin-top: 20px;
+    }
+    
+    .data-item {
+        background-color: white;
+        padding: 20px;
+        border-radius: 6px;
+        border-left: 4px solid #3498db;
+    }
+    
+    .data-item-label {
+        font-size: 0.85em;
+        color: #666;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        margin-bottom: 8px;
+    }
+    
+    .data-item-value {
+        font-size: 1.5em;
+        font-weight: 600;
+        color: #2c3e50;
+    }
+    
+    .back-link {
+        margin-top: 30px;
+        padding-top: 20px;
+        border-top: 1px solid #e0e0e0;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="report-header">
+    <span class="report-type-badge">{{ report_card.get_display_name() }}</span>
+    <h2>{{ report_card.title }}</h2>
+    <p>{{ report_card.description }}</p>
+</div>
+
+<div class="data-section">
+    <h2>Report Data</h2>
+    <div class="data-grid">
+        {% for key, value in report_card.data.items() %}
+        <div class="data-item">
+            <div class="data-item-label">{{ key.replace('_', ' ').title() }}</div>
+            <div class="data-item-value">{{ value }}</div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<div class="back-link">
+    <a href="{{ url_for('index') }}" class="btn btn-secondary">← Back to All Report Cards</a>
+</div>
+{% endblock %}
