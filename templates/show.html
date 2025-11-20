@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Card - {{ report_card.uuid }}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .back-link {
+            margin-bottom: 20px;
+        }
+        .back-link a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .back-link a:hover {
+            text-decoration: underline;
+        }
+        .report-card {
+            background-color: white;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .header {
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            margin: 0 0 10px 0;
+            color: #333;
+        }
+        .header .meta {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            margin-top: 15px;
+        }
+        .header .meta div {
+            padding: 8px;
+            background-color: #f8f9fa;
+            border-radius: 4px;
+        }
+        .header .meta strong {
+            color: #555;
+        }
+        .sections {
+            margin-top: 30px;
+        }
+        .section {
+            margin-bottom: 25px;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+        }
+        .section h3 {
+            margin-top: 0;
+            color: #333;
+        }
+        .section-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .section-item {
+            padding: 15px;
+            border-radius: 4px;
+            text-align: center;
+        }
+        .section-item .label {
+            font-weight: bold;
+            font-size: 12px;
+            color: #555;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+        }
+        .section-item .value {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+        }
+        .section-item .comment {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #666;
+            font-style: italic;
+        }
+        .grade-display {
+            background-color: white;
+            border: 2px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="back-link">
+        <a href="/">← Back to All Report Cards</a>
+    </div>
+    
+    <div class="report-card">
+        <div class="header">
+            <h1>Report Card</h1>
+            <div class="meta">
+                <div><strong>UUID:</strong> {{ report_card.uuid }}</div>
+                <div><strong>Type:</strong> {{ report_card.type }}</div>
+                <div><strong>Account:</strong> {{ account.name }}</div>
+                <div><strong>Account ID:</strong> {{ report_card.account_id }}</div>
+                <div><strong>Reference Date:</strong> {{ report_card.reference_date }}</div>
+                <div><strong>ID:</strong> {{ report_card.id }}</div>
+            </div>
+        </div>
+        
+        <div class="sections">
+            {% for section in report_card.sections %}
+            <div class="section">
+                <h3>Section {{ loop.index }}</h3>
+                <div class="section-grid">
+                    <div class="section-item grade-display">
+                        <div class="label">Grade</div>
+                        <div class="value">{{ section.grade }}</div>
+                    </div>
+                    <div class="section-item" style="background-color: {{ get_score_color(section.score) }}; {% if section.score >= 4.25 %}color: white;{% endif %}">
+                        <div class="label" {% if section.score >= 4.25 %}style="color: #f0f0f0;"{% endif %}>Score</div>
+                        <div class="value">{{ "%.2f"|format(section.score) }}</div>
+                    </div>
+                    <div class="section-item grade-display">
+                        <div class="label">Comment</div>
+                        <div class="comment">{{ section.comment }}</div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>
