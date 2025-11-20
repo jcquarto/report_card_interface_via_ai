@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="header-section">
+    <%= link_to '← Back to All Report Cards', report_cards_path, class: 'back-link' %>
+    <h1><%= @report_card.student_name %>'s Report Card</h1>
+    <span class="badge <%= @report_card.report_card_type %>">
+      <%= @report_card.report_card_type.humanize %>
+    </span>
+  </div>
+
+  <div class="report-card-details">
+    <div class="meta-info">
+      <p><strong>Student ID:</strong> <%= @report_card.uuid %></p>
+      <p><strong>Grade Level:</strong> <%= @report_card.grade_level %></p>
+    </div>
+
+    <% case @report_card.report_card_type %>
+    <% when 'elementary' %>
+      <%= render partial: 'elementary_report', locals: { report_card: @report_card } %>
+    <% when 'middle_school' %>
+      <%= render partial: 'middle_school_report', locals: { report_card: @report_card } %>
+    <% when 'high_school' %>
+      <%= render partial: 'high_school_report', locals: { report_card: @report_card } %>
+    <% else %>
+      <div class="alert alert-warning">
+        Unknown report card type: <%= @report_card.report_card_type %>
+      </div>
+    <% end %>
+  </div>
+</div>
