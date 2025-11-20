@@ -1,0 +1,42 @@
+<div class="elementary-report">
+  <div class="teacher-info">
+    <h3>Teacher: <%= report_card.teacher %></h3>
+  </div>
+
+  <div class="subjects-section">
+    <h3>Subjects</h3>
+    <table class="subjects-table">
+      <thead>
+        <tr>
+          <th>Subject</th>
+          <th>Grade</th>
+          <th>Comments</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% report_card.subjects.each do |subject| %>
+          <tr>
+            <td><%= subject['name'] %></td>
+            <td class="grade-cell"><span class="grade-badge"><%= subject['grade'] %></span></td>
+            <td><%= subject['comments'] %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+  </div>
+
+  <% if report_card.attendance %>
+    <div class="attendance-section">
+      <h3>Attendance</h3>
+      <p><strong>Days Present:</strong> <%= report_card.attendance['days_present'] %></p>
+      <p><strong>Days Absent:</strong> <%= report_card.attendance['days_absent'] %></p>
+    </div>
+  <% end %>
+
+  <% if report_card.overall_comments %>
+    <div class="comments-section">
+      <h3>Overall Comments</h3>
+      <p><%= report_card.overall_comments %></p>
+    </div>
+  <% end %>
+</div>

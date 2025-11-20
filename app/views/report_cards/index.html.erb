@@ -1,0 +1,38 @@
+<div class="container">
+  <h1>Report Cards</h1>
+  
+  <div class="sort-controls">
+    <%= form_with url: report_cards_path, method: :get, local: true do |f| %>
+      <%= f.label :sort_by, "Sort by:" %>
+      <%= f.select :sort_by, 
+                   [["Account Name", "default"], ["Reference Date", "by_date"], ["Report Card Type", "by_type"]], 
+                   { selected: @sort_by },
+                   { onchange: "this.form.submit();" } %>
+    <% end %>
+  </div>
+  
+  <div class="report-cards-list">
+    <% @report_cards.each do |report_card| %>
+      <div class="report-card-item">
+        <div class="card-type-badge">
+          <%= report_card.report_card_type.humanize %>
+        </div>
+        <div class="card-header">
+          <h2><%= report_card.student_name %></h2>
+        </div>
+        <div class="card-body">
+          <p><strong>Account:</strong> <%= report_card.account_name %></p>
+          <p><strong>ID:</strong> <%= report_card.uuid %></p>
+          <p><strong>Grade Level:</strong> <%= report_card.grade_level %></p>
+          <p><strong>Reference Date:</strong> <%= report_card.reference_date_display %></p>
+          <% if report_card.gpa %>
+            <p><strong>GPA:</strong> <%= report_card.gpa %></p>
+          <% end %>
+        </div>
+        <div class="card-footer">
+          <%= link_to 'view report card', report_card_path(report_card.uuid), class: 'btn btn-primary' %>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>

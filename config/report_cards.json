@@ -1,0 +1,234 @@
+[
+  {
+    "uuid": "RC001",
+    "account_name": "Springfield Elementary",
+    "student_name": "Alice Johnson",
+    "report_card_type": "elementary",
+    "grade_level": "5th Grade",
+    "reference_date": "2023-11-15",
+    "teacher": "Ms. Smith",
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "grade": "A",
+        "comments": "Excellent problem-solving skills"
+      },
+      {
+        "name": "Science",
+        "grade": "A-",
+        "comments": "Shows great curiosity and asks insightful questions"
+      },
+      {
+        "name": "English",
+        "grade": "B+",
+        "comments": "Good reading comprehension, needs to work on writing"
+      },
+      {
+        "name": "Social Studies",
+        "grade": "A",
+        "comments": "Very engaged in class discussions"
+      }
+    ],
+    "attendance": {
+      "days_present": 175,
+      "days_absent": 5
+    },
+    "overall_comments": "Alice is a bright student who consistently demonstrates strong academic performance."
+  },
+  {
+    "uuid": "RC002",
+    "account_name": "Riverside Middle School",
+    "student_name": "Bob Martinez",
+    "report_card_type": "middle_school",
+    "grade_level": "8th Grade",
+    "reference_date": "2023-12-01",
+    "gpa": 3.45,
+    "courses": [
+      {
+        "name": "Algebra I",
+        "grade": 88,
+        "credit": 1.0,
+        "teacher": "Mr. Brown"
+      },
+      {
+        "name": "Physical Science",
+        "grade": 92,
+        "credit": 1.0,
+        "teacher": "Dr. Lee"
+      },
+      {
+        "name": "English Language Arts",
+        "grade": 85,
+        "credit": 1.0,
+        "teacher": "Ms. Davis"
+      },
+      {
+        "name": "World History",
+        "grade": 90,
+        "credit": 1.0,
+        "teacher": "Mr. Wilson"
+      },
+      {
+        "name": "Physical Education",
+        "grade": 95,
+        "credit": 0.5,
+        "teacher": "Coach Roberts"
+      }
+    ],
+    "conduct": "Satisfactory",
+    "principal_comments": "Bob is showing steady improvement in all subject areas."
+  },
+  {
+    "uuid": "RC003",
+    "account_name": "Lincoln High School",
+    "student_name": "Carol Zhang",
+    "report_card_type": "high_school",
+    "grade_level": "11th Grade",
+    "reference_date": "2023-10-30",
+    "gpa": 3.89,
+    "weighted_gpa": 4.15,
+    "class_rank": 15,
+    "class_size": 320,
+    "courses": [
+      {
+        "name": "AP Calculus BC",
+        "grade": 94,
+        "letter_grade": "A",
+        "credit": 1.0,
+        "honors": true,
+        "teacher": "Dr. Thompson"
+      },
+      {
+        "name": "AP Chemistry",
+        "grade": 91,
+        "letter_grade": "A-",
+        "credit": 1.0,
+        "honors": true,
+        "teacher": "Mrs. Anderson"
+      },
+      {
+        "name": "English Literature",
+        "grade": 88,
+        "letter_grade": "B+",
+        "credit": 1.0,
+        "honors": false,
+        "teacher": "Mr. Clarke"
+      },
+      {
+        "name": "U.S. History",
+        "grade": 92,
+        "letter_grade": "A",
+        "credit": 1.0,
+        "honors": false,
+        "teacher": "Ms. Rodriguez"
+      },
+      {
+        "name": "Spanish III",
+        "grade": 90,
+        "letter_grade": "A-",
+        "credit": 1.0,
+        "honors": false,
+        "teacher": "Señora Garcia"
+      }
+    ],
+    "test_scores": {
+      "sat": 1420,
+      "act": 32
+    },
+    "counselor_comments": "Carol is on track for admission to competitive universities."
+  },
+  {
+    "uuid": "RC004",
+    "account_name": "Springfield Elementary",
+    "student_name": "David Kim",
+    "report_card_type": "elementary",
+    "grade_level": "3rd Grade",
+    "reference_date": "2023-11-20",
+    "teacher": "Mrs. Taylor",
+    "subjects": [
+      {
+        "name": "Reading",
+        "grade": "B",
+        "comments": "Making good progress with reading fluency"
+      },
+      {
+        "name": "Writing",
+        "grade": "B-",
+        "comments": "Needs to focus on sentence structure"
+      },
+      {
+        "name": "Math",
+        "grade": "A",
+        "comments": "Excellent understanding of multiplication and division"
+      },
+      {
+        "name": "Science",
+        "grade": "B+",
+        "comments": "Enjoys hands-on experiments"
+      }
+    ],
+    "attendance": {
+      "days_present": 168,
+      "days_absent": 12
+    },
+    "overall_comments": "David is a hard-working student who shows improvement each quarter."
+  },
+  {
+    "uuid": "RC005",
+    "account_name": "Central High School",
+    "student_name": "Emma Wilson",
+    "report_card_type": "high_school",
+    "grade_level": "10th Grade",
+    "reference_date": "2023-12-10",
+    "gpa": 3.56,
+    "weighted_gpa": 3.72,
+    "class_rank": 85,
+    "class_size": 315,
+    "courses": [
+      {
+        "name": "Geometry",
+        "grade": 87,
+        "letter_grade": "B+",
+        "credit": 1.0,
+        "honors": false,
+        "teacher": "Mr. Peterson"
+      },
+      {
+        "name": "Biology",
+        "grade": 90,
+        "letter_grade": "A-",
+        "credit": 1.0,
+        "honors": false,
+        "teacher": "Dr. Chen"
+      },
+      {
+        "name": "English 10",
+        "grade": 85,
+        "letter_grade": "B",
+        "credit": 1.0,
+        "honors": false,
+        "teacher": "Ms. Brooks"
+      },
+      {
+        "name": "World Geography",
+        "grade": 88,
+        "letter_grade": "B+",
+        "credit": 1.0,
+        "honors": false,
+        "teacher": "Mr. Hayes"
+      },
+      {
+        "name": "Art II",
+        "grade": 95,
+        "letter_grade": "A",
+        "credit": 1.0,
+        "honors": false,
+        "teacher": "Ms. Foster"
+      }
+    ],
+    "test_scores": {
+      "psat": 1180
+    },
+    "counselor_comments": "Emma has a talent for art and should consider AP Art courses next year."
+  }
+]

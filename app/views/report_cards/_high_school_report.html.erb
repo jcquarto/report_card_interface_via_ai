@@ -1,0 +1,75 @@
+<div class="high-school-report">
+  <div class="academic-summary">
+    <h3>Academic Summary</h3>
+    <div class="gpa-grid">
+      <div class="gpa-item">
+        <span class="label">GPA:</span>
+        <span class="value"><%= report_card.gpa %></span>
+      </div>
+      <% if report_card.weighted_gpa %>
+        <div class="gpa-item">
+          <span class="label">Weighted GPA:</span>
+          <span class="value"><%= report_card.weighted_gpa %></span>
+        </div>
+      <% end %>
+      <% if report_card.class_rank %>
+        <div class="gpa-item">
+          <span class="label">Class Rank:</span>
+          <span class="value"><%= report_card.class_rank %> of <%= report_card.class_size %></span>
+        </div>
+      <% end %>
+    </div>
+  </div>
+
+  <div class="courses-section">
+    <h3>Courses</h3>
+    <table class="courses-table">
+      <thead>
+        <tr>
+          <th>Course Name</th>
+          <th>Grade</th>
+          <th>Letter</th>
+          <th>Credit</th>
+          <th>Teacher</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% report_card.courses.each do |course| %>
+          <tr class="<%= course['honors'] ? 'honors-course' : '' %>">
+            <td>
+              <%= course['name'] %>
+              <% if course['honors'] %>
+                <span class="honors-badge">AP/Honors</span>
+              <% end %>
+            </td>
+            <td class="grade-cell"><span class="grade-badge numeric"><%= course['grade'] %></span></td>
+            <td class="grade-cell"><span class="grade-badge letter"><%= course['letter_grade'] %></span></td>
+            <td><%= course['credit'] %></td>
+            <td><%= course['teacher'] %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+  </div>
+
+  <% if report_card.test_scores %>
+    <div class="test-scores-section">
+      <h3>Standardized Test Scores</h3>
+      <div class="test-scores-grid">
+        <% report_card.test_scores.each do |test_name, score| %>
+          <div class="test-score-item">
+            <span class="test-name"><%= test_name.upcase %>:</span>
+            <span class="test-score"><%= score %></span>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  <% end %>
+
+  <% if report_card.counselor_comments %>
+    <div class="comments-section">
+      <h3>Counselor's Comments</h3>
+      <p><%= report_card.counselor_comments %></p>
+    </div>
+  <% end %>
+</div>
