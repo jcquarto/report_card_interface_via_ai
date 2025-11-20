@@ -15,7 +15,12 @@
         <tr>
           <td><strong><%= subject["name"] %></strong></td>
           <td><%= subject["teacher"] %></td>
-          <td class="grade"><%= subject["grade"] %></td>
+          <td class="grade" style="background-color: <%= score_background_color(subject["score"]) %>; color: <%= score_text_color(subject["score"]) %>;">
+            <%= subject["grade"] %>
+            <% if subject["score"] %>
+              <span class="score-value">(<%= subject["score"] %>)</span>
+            <% end %>
+          </td>
           <td><%= subject["comments"] %></td>
         </tr>
       <% end %>
@@ -56,6 +61,12 @@
   .grades-table .grade {
     font-size: 1.2em;
     font-weight: bold;
-    color: #4CAF50;
+    padding: 12px;
+    text-align: center;
+  }
+
+  .grades-table .score-value {
+    font-size: 0.9em;
+    margin-left: 5px;
   }
 </style>

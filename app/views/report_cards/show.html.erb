@@ -8,6 +8,9 @@
     <h2><%= @report_card.student_name %></h2>
     <p><strong>Grade Level:</strong> <%= @report_card.grade_level %></p>
     <p><strong>Term:</strong> <%= @report_card.term %></p>
+    <% if @report_card.reference_date %>
+      <p><strong>Reference Date:</strong> <%= Date.parse(@report_card.reference_date).strftime('%B %d, %Y') %></p>
+    <% end %>
     <p><strong>Report Card ID:</strong> <%= @report_card.uuid %></p>
   </div>
 
