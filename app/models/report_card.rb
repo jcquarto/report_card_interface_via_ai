@@ -1,11 +1,13 @@
 class ReportCard
-  attr_reader :uuid, :student_name, :report_card_type, :grade_level, :data
+  attr_reader :uuid, :account_name, :student_name, :report_card_type, :grade_level, :reference_date, :data
 
   def initialize(attributes)
     @uuid = attributes['uuid']
+    @account_name = attributes['account_name']
     @student_name = attributes['student_name']
     @report_card_type = attributes['report_card_type']
     @grade_level = attributes['grade_level']
+    @reference_date = attributes['reference_date']
     @data = attributes
   end
 

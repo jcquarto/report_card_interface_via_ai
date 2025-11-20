@@ -1,9 +1,11 @@
 [
   {
     "uuid": "RC001",
+    "account_name": "Springfield Elementary",
     "student_name": "Alice Johnson",
     "report_card_type": "elementary",
     "grade_level": "5th Grade",
+    "reference_date": "2023-11-15",
     "teacher": "Ms. Smith",
     "subjects": [
       {
@@ -35,9 +37,11 @@
   },
   {
     "uuid": "RC002",
+    "account_name": "Riverside Middle School",
     "student_name": "Bob Martinez",
     "report_card_type": "middle_school",
     "grade_level": "8th Grade",
+    "reference_date": "2023-12-01",
     "gpa": 3.45,
     "courses": [
       {
@@ -76,9 +80,11 @@
   },
   {
     "uuid": "RC003",
+    "account_name": "Lincoln High School",
     "student_name": "Carol Zhang",
     "report_card_type": "high_school",
     "grade_level": "11th Grade",
+    "reference_date": "2023-10-30",
     "gpa": 3.89,
     "weighted_gpa": 4.15,
     "class_rank": 15,
@@ -133,9 +139,11 @@
   },
   {
     "uuid": "RC004",
+    "account_name": "Springfield Elementary",
     "student_name": "David Kim",
     "report_card_type": "elementary",
     "grade_level": "3rd Grade",
+    "reference_date": "2023-11-20",
     "teacher": "Mrs. Taylor",
     "subjects": [
       {
@@ -167,9 +175,11 @@
   },
   {
     "uuid": "RC005",
+    "account_name": "Central High School",
     "student_name": "Emma Wilson",
     "report_card_type": "high_school",
     "grade_level": "10th Grade",
+    "reference_date": "2023-12-10",
     "gpa": 3.56,
     "weighted_gpa": 3.72,
     "class_rank": 85,

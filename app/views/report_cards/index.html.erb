@@ -1,9 +1,21 @@
 <div class="container">
   <h1>Report Cards</h1>
   
+  <div class="sort-controls">
+    <label for="sort-select">Sort by:</label>
+    <select id="sort-select" onchange="window.location.href='?sort_by=' + this.value">
+      <option value="default" <%= 'selected' if @sort_by == 'default' %>>Account Name</option>
+      <option value="by_date" <%= 'selected' if @sort_by == 'by_date' %>>Reference Date</option>
+      <option value="by_type" <%= 'selected' if @sort_by == 'by_type' %>>Report Card Type</option>
+    </select>
+  </div>
+  
   <div class="report-cards-list">
     <% @report_cards.each do |report_card| %>
       <div class="report-card-item">
+        <div class="card-type-badge">
+          <%= report_card.report_card_type.humanize %>
+        </div>
         <div class="card-header">
           <h2><%= report_card.student_name %></h2>
           <span class="badge <%= report_card.report_card_type %>">
@@ -11,14 +23,16 @@
           </span>
         </div>
         <div class="card-body">
+          <p><strong>Account:</strong> <%= report_card.account_name %></p>
           <p><strong>ID:</strong> <%= report_card.uuid %></p>
           <p><strong>Grade Level:</strong> <%= report_card.grade_level %></p>
+          <p><strong>Reference Date:</strong> <%= report_card.reference_date %></p>
           <% if report_card.gpa %>
             <p><strong>GPA:</strong> <%= report_card.gpa %></p>
           <% end %>
         </div>
         <div class="card-footer">
-          <%= link_to 'View Details', report_card_path(report_card.uuid), class: 'btn btn-primary' %>
+          <%= link_to 'view report card', report_card_path(report_card.uuid), class: 'btn btn-primary' %>
         </div>
       </div>
     <% end %>
