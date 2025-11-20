@@ -19,6 +19,10 @@ class ReportCard
     @data["term"]
   end
 
+  def month_year
+    @data["month_year"]
+  end
+
   # For standard report cards
   def subjects
     @data["subjects"] || []

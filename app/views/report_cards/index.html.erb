@@ -1,5 +1,15 @@
 <h1>Report Cards</h1>
 
+<div class="filter-controls">
+  <%= form_with url: report_cards_path, method: :get, local: true do |f| %>
+    <label for="month_year">Filter by Month:</label>
+    <%= f.select :month_year, 
+        options_for_select(@available_months.map { |m| [Date.parse("#{m}-01").strftime("%B %Y"), m] }, @selected_month),
+        {},
+        { id: "month_year", onchange: "this.form.submit();" } %>
+  <% end %>
+</div>
+
 <div class="report-cards-list">
   <% @report_cards.each do |report_card| %>
     <div class="report-card-item">
@@ -15,6 +25,26 @@
 </div>
 
 <style>
+  .filter-controls {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+  }
+  
+  .filter-controls label {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .filter-controls select {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+  }
+  
   .report-cards-list {
     max-width: 800px;
     margin: 20px auto;

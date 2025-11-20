@@ -5,6 +5,7 @@
     "student_name": "John Doe",
     "grade_level": "5th Grade",
     "term": "Fall 2023",
+    "month_year": "2024-11",
     "subjects": [
       {
         "name": "Mathematics",
@@ -32,6 +33,7 @@
     "student_name": "Jane Smith",
     "grade_level": "3rd Grade",
     "term": "Spring 2023",
+    "month_year": "2023-05",
     "narrative_assessment": "Jane has shown remarkable growth this term. She demonstrates strong creative thinking skills and collaborates well with peers. Her reading has improved significantly, and she now reads above grade level. She particularly enjoys science projects and shows curiosity about the natural world.",
     "teacher_name": "Ms. Anderson",
     "areas_of_strength": [
@@ -50,6 +52,7 @@
     "student_name": "Michael Johnson",
     "grade_level": "4th Grade",
     "term": "Winter 2023",
+    "month_year": "2025-02",
     "standards": [
       {
         "category": "Reading",
@@ -90,6 +93,7 @@
     "student_name": "Emily Brown",
     "grade_level": "6th Grade",
     "term": "Fall 2023",
+    "month_year": "2024-11",
     "subjects": [
       {
         "name": "Mathematics",
@@ -123,6 +127,7 @@
     "student_name": "David Wilson",
     "grade_level": "2nd Grade",
     "term": "Spring 2023",
+    "month_year": "2023-05",
     "narrative_assessment": "David is a conscientious student who takes pride in his work. He has made significant progress in reading fluency this term and is now reading at grade level. David works well independently and follows directions carefully. He is kind to his classmates and is a positive presence in the classroom.",
     "teacher_name": "Mrs. Martinez",
     "areas_of_strength": [

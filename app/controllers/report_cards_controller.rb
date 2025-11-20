@@ -1,6 +1,8 @@
 class ReportCardsController < ApplicationController
   def index
-    @report_cards = ReportCardService.all
+    @selected_month = params[:month_year] || ReportCardService.latest_month
+    @report_cards = ReportCardService.all(month_year: @selected_month)
+    @available_months = ReportCardService.available_months
   end
 
   def show
