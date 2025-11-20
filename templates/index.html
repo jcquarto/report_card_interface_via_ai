@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block title %}Report Cards - List{% endblock %}
+
+{% block content %}
+<h1>Report Cards</h1>
+
+<a href="{{ url_for('create_report_card') }}" class="back-link">Create New Report Card</a>
+
+{% if cards %}
+<table>
+    <thead>
+        <tr>
+            <th>UUID</th>
+            <th>Account ID</th>
+            <th>Reference Date</th>
+            <th>Type</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for card in cards %}
+        <tr>
+            <td>{{ card.uuid }}</td>
+            <td>{{ card.parameters.get('account_id', 'N/A') }}</td>
+            <td>{{ card.parameters.get('reference_date', 'N/A') }}</td>
+            <td>{{ card.card_type }}</td>
+            <td>
+                <a href="{{ url_for('show_report_card', uuid=card.uuid) }}">View Details</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% else %}
+<p>No report cards found.</p>
+{% endif %}
+{% endblock %}
