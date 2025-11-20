@@ -7,7 +7,7 @@ class ReportCard
     @student_name = attributes['student_name']
     @report_card_type = attributes['report_card_type']
     @grade_level = attributes['grade_level']
-    @reference_date = attributes['reference_date']
+    @reference_date = attributes['reference_date'] ? Date.parse(attributes['reference_date']) : nil
     @data = attributes
   end
 
@@ -78,5 +78,10 @@ class ReportCard
 
   def counselor_comments
     data['counselor_comments']
+  end
+
+  # Helper method to display reference date as formatted string
+  def reference_date_display
+    reference_date&.strftime('%Y-%m-%d')
   end
 end
