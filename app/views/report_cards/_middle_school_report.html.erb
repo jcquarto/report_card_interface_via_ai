@@ -1,0 +1,40 @@
+<div class="middle-school-report">
+  <div class="gpa-section">
+    <h3>Academic Summary</h3>
+    <p class="gpa"><strong>GPA:</strong> <span class="gpa-value"><%= report_card.gpa %></span></p>
+    <% if report_card.conduct %>
+      <p><strong>Conduct:</strong> <%= report_card.conduct %></p>
+    <% end %>
+  </div>
+
+  <div class="courses-section">
+    <h3>Courses</h3>
+    <table class="courses-table">
+      <thead>
+        <tr>
+          <th>Course Name</th>
+          <th>Grade</th>
+          <th>Credit</th>
+          <th>Teacher</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% report_card.courses.each do |course| %>
+          <tr>
+            <td><%= course['name'] %></td>
+            <td class="grade-cell"><span class="grade-badge numeric"><%= course['grade'] %></span></td>
+            <td><%= course['credit'] %></td>
+            <td><%= course['teacher'] %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+  </div>
+
+  <% if report_card.principal_comments %>
+    <div class="comments-section">
+      <h3>Principal's Comments</h3>
+      <p><%= report_card.principal_comments %></p>
+    </div>
+  <% end %>
+</div>

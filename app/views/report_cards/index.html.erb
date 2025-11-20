@@ -1,0 +1,26 @@
+<div class="container">
+  <h1>Report Cards</h1>
+  
+  <div class="report-cards-list">
+    <% @report_cards.each do |report_card| %>
+      <div class="report-card-item">
+        <div class="card-header">
+          <h2><%= report_card.student_name %></h2>
+          <span class="badge <%= report_card.report_card_type %>">
+            <%= report_card.report_card_type.humanize %>
+          </span>
+        </div>
+        <div class="card-body">
+          <p><strong>ID:</strong> <%= report_card.uuid %></p>
+          <p><strong>Grade Level:</strong> <%= report_card.grade_level %></p>
+          <% if report_card.gpa %>
+            <p><strong>GPA:</strong> <%= report_card.gpa %></p>
+          <% end %>
+        </div>
+        <div class="card-footer">
+          <%= link_to 'View Details', report_card_path(report_card.uuid), class: 'btn btn-primary' %>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
