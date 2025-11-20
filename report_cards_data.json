@@ -1,0 +1,3924 @@
+{
+  "report_cards": [
+    {
+      "id": 1,
+      "uuid": "298B9",
+      "account_id": 1,
+      "account_name": "Arctic Air HVAC Solutions",
+      "reference_date": "2025-01-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.45,
+          "comment": "Steady improvement"
+        },
+        {
+          "grade": "B",
+          "score": 1.98,
+          "comment": "Good progress"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "uuid": "82F48",
+      "account_id": 2,
+      "account_name": "Sunshine Plumbing & Heating",
+      "reference_date": "2025-01-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "C-",
+          "score": 1.35,
+          "comment": "Room for growth"
+        },
+        {
+          "grade": "A+",
+          "score": 1.12,
+          "comment": "Needs improvement"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "uuid": "D1A4F",
+      "account_id": 2,
+      "account_name": "Sunshine Plumbing & Heating",
+      "reference_date": "2025-01-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 1.11,
+          "comment": "Needs improvement"
+        },
+        {
+          "grade": "F",
+          "score": 3.81,
+          "comment": "Room for growth"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "uuid": "7C087",
+      "account_id": 2,
+      "account_name": "Sunshine Plumbing & Heating",
+      "reference_date": "2025-01-01",
+      "report_card_type": "Custom Agency Report Card",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.11,
+          "comment": "Excellent performance"
+        },
+        {
+          "grade": "A-",
+          "score": 3.79,
+          "comment": "Solid execution"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "uuid": "24BE9",
+      "account_id": 3,
+      "account_name": "Premier Comfort Systems",
+      "reference_date": "2025-01-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "B",
+          "score": 1.62,
+          "comment": "Solid execution"
+        },
+        {
+          "grade": "A",
+          "score": 1.37,
+          "comment": "Strong results"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "uuid": "F280B",
+      "account_id": 3,
+      "account_name": "Premier Comfort Systems",
+      "reference_date": "2025-01-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "B-",
+          "score": 3.41,
+          "comment": "Excellent performance"
+        },
+        {
+          "grade": "C",
+          "score": 3.14,
+          "comment": "Room for growth"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "uuid": "16827",
+      "account_id": 3,
+      "account_name": "Premier Comfort Systems",
+      "reference_date": "2025-01-01",
+      "report_card_type": "Custom Agency Report Card",
+      "sections": [
+        {
+          "grade": "B",
+          "score": 4.32,
+          "comment": "Requires attention"
+        },
+        {
+          "grade": "B-",
+          "score": 3.31,
+          "comment": "Steady improvement"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "uuid": "EF81C",
+      "account_id": 4,
+      "account_name": "Blue Ridge Mechanical",
+      "reference_date": "2025-01-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "A",
+          "score": 1.18,
+          "comment": "Needs improvement"
+        },
+        {
+          "grade": "B",
+          "score": 4.94,
+          "comment": "Needs improvement"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "uuid": "82E08",
+      "account_id": 4,
+      "account_name": "Blue Ridge Mechanical",
+      "reference_date": "2025-01-01",
+      "report_card_type": "Custom Agency Report Card",
+      "sections": [
+        {
+          "grade": "C",
+          "score": 3.54,
+          "comment": "Solid execution"
+        },
+        {
+          "grade": "A-",
+          "score": 2.48,
+          "comment": "Needs improvement"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "uuid": "84FDA",
+      "account_id": 5,
+      "account_name": "Coastal Climate Control",
+      "reference_date": "2025-01-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 2.07,
+          "comment": "Impressive gains"
+        },
+        {
+          "grade": "F",
+          "score": 1.29,
+          "comment": "Impressive gains"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "uuid": "DB55F",
+      "account_id": 5,
+      "account_name": "Coastal Climate Control",
+      "reference_date": "2025-01-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "B+",
+          "score": 1.65,
+          "comment": "Room for growth"
+        },
+        {
+          "grade": "B",
+          "score": 4.96,
+          "comment": "Impressive gains"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "uuid": "605BD",
+      "account_id": 6,
+      "account_name": "Mountain View Plumbing",
+      "reference_date": "2025-01-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "B+",
+          "score": 3.74,
+          "comment": "Excellent performance"
+        },
+        {
+          "grade": "B+",
+          "score": 4.29,
+          "comment": "Solid execution"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "uuid": "555BB",
+      "account_id": 6,
+      "account_name": "Mountain View Plumbing",
+      "reference_date": "2025-01-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "A",
+          "score": 1.84,
+          "comment": "Requires attention"
+        },
+        {
+          "grade": "B-",
+          "score": 1.85,
+          "comment": "Exceeds expectations"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "uuid": "FF138",
+      "account_id": 6,
+      "account_name": "Mountain View Plumbing",
+      "reference_date": "2025-01-01",
+      "report_card_type": "Custom Agency Report Card",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 2.84,
+          "comment": "Outstanding work"
+        },
+        {
+          "grade": "A-",
+          "score": 1.99,
+          "comment": "Meets standards"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "uuid": "1C6C6",
+      "account_id": 7,
+      "account_name": "Valley Heating & Cooling",
+      "reference_date": "2025-01-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "C-",
+          "score": 2.05,
+          "comment": "Requires attention"
+        },
+        {
+          "grade": "C+",
+          "score": 4.59,
+          "comment": "Room for growth"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "uuid": "5DB9C",
+      "account_id": 7,
+      "account_name": "Valley Heating & Cooling",
+      "reference_date": "2025-01-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "A-",
+          "score": 3.04,
+          "comment": "Strong results"
+        },
+        {
+          "grade": "A+",
+          "score": 4.44,
+          "comment": "Good progress"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "uuid": "557EC",
+      "account_id": 8,
+      "account_name": "Metro Plumbing Experts",
+      "reference_date": "2025-01-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 2.69,
+          "comment": "Strong results"
+        },
+        {
+          "grade": "C+",
+          "score": 2.53,
+          "comment": "Exceeds expectations"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "uuid": "FCAF7",
+      "account_id": 9,
+      "account_name": "Elite HVAC Services",
+      "reference_date": "2025-01-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "A+",
+          "score": 3.72,
+          "comment": "Strong results"
+        },
+        {
+          "grade": "F",
+          "score": 4.54,
+          "comment": "Outstanding work"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "uuid": "20C63",
+      "account_id": 9,
+      "account_name": "Elite HVAC Services",
+      "reference_date": "2025-01-01",
+      "report_card_type": "Custom Agency Report Card",
+      "sections": [
+        {
+          "grade": "B",
+          "score": 2.74,
+          "comment": "Exceeds expectations"
+        },
+        {
+          "grade": "A+",
+          "score": 4.82,
+          "comment": "Steady improvement"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "uuid": "A0EA8",
+      "account_id": 10,
+      "account_name": "Precision Pipe & Climate",
+      "reference_date": "2025-01-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "B",
+          "score": 4.89,
+          "comment": "Good progress"
+        },
+        {
+          "grade": "C-",
+          "score": 4.65,
+          "comment": "Impressive gains"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "uuid": "EF920",
+      "account_id": 10,
+      "account_name": "Precision Pipe & Climate",
+      "reference_date": "2025-01-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 3.03,
+          "comment": "Needs improvement"
+        },
+        {
+          "grade": "A-",
+          "score": 2.5,
+          "comment": "Good progress"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "uuid": "00DEC",
+      "account_id": 1,
+      "account_name": "Arctic Air HVAC Solutions",
+      "reference_date": "2025-02-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "C-",
+          "score": 4.67,
+          "comment": "Requires attention"
+        },
+        {
+          "grade": "B-",
+          "score": 2.95,
+          "comment": "Strong results"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "uuid": "A66C1",
+      "account_id": 2,
+      "account_name": "Sunshine Plumbing & Heating",
+      "reference_date": "2025-02-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "B",
+          "score": 1.96,
+          "comment": "Needs improvement"
+        },
+        {
+          "grade": "D",
+          "score": 4.79,
+          "comment": "Strong results"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "uuid": "B192A",
+      "account_id": 3,
+      "account_name": "Premier Comfort Systems",
+      "reference_date": "2025-02-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "C-",
+          "score": 4.06,
+          "comment": "Good progress"
+        },
+        {
+          "grade": "F",
+          "score": 2.9,
+          "comment": "Meets standards"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "uuid": "A7066",
+      "account_id": 3,
+      "account_name": "Premier Comfort Systems",
+      "reference_date": "2025-02-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "C-",
+          "score": 4.49,
+          "comment": "Room for growth"
+        },
+        {
+          "grade": "B+",
+          "score": 4.72,
+          "comment": "Steady improvement"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "uuid": "99E0E",
+      "account_id": 4,
+      "account_name": "Blue Ridge Mechanical",
+      "reference_date": "2025-02-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "B",
+          "score": 2.6,
+          "comment": "Impressive gains"
+        },
+        {
+          "grade": "F",
+          "score": 2.49,
+          "comment": "Meets standards"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "uuid": "CDA23",
+      "account_id": 4,
+      "account_name": "Blue Ridge Mechanical",
+      "reference_date": "2025-02-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "B+",
+          "score": 1.9,
+          "comment": "Solid execution"
+        },
+        {
+          "grade": "A+",
+          "score": 3.35,
+          "comment": "Needs improvement"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "uuid": "8405D",
+      "account_id": 5,
+      "account_name": "Coastal Climate Control",
+      "reference_date": "2025-02-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "A+",
+          "score": 1.28,
+          "comment": "Impressive gains"
+        },
+        {
+          "grade": "A+",
+          "score": 1.92,
+          "comment": "Excellent performance"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "uuid": "F3C25",
+      "account_id": 5,
+      "account_name": "Coastal Climate Control",
+      "reference_date": "2025-02-01",
+      "report_card_type": "Custom Agency Report Card",
+      "sections": [
+        {
+          "grade": "B+",
+          "score": 2.11,
+          "comment": "Exceeds expectations"
+        },
+        {
+          "grade": "B+",
+          "score": 3.16,
+          "comment": "Steady improvement"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "uuid": "D4BBF",
+      "account_id": 6,
+      "account_name": "Mountain View Plumbing",
+      "reference_date": "2025-02-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 3.3,
+          "comment": "Needs improvement"
+        },
+        {
+          "grade": "C",
+          "score": 4.23,
+          "comment": "Needs improvement"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "uuid": "3315C",
+      "account_id": 6,
+      "account_name": "Mountain View Plumbing",
+      "reference_date": "2025-02-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 2.72,
+          "comment": "Room for growth"
+        },
+        {
+          "grade": "C+",
+          "score": 2.87,
+          "comment": "Steady improvement"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "uuid": "A61BC",
+      "account_id": 6,
+      "account_name": "Mountain View Plumbing",
+      "reference_date": "2025-02-01",
+      "report_card_type": "Custom Agency Report Card",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 4.94,
+          "comment": "Strong results"
+        },
+        {
+          "grade": "A+",
+          "score": 2.61,
+          "comment": "Solid execution"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "uuid": "06690",
+      "account_id": 7,
+      "account_name": "Valley Heating & Cooling",
+      "reference_date": "2025-02-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "A",
+          "score": 1.99,
+          "comment": "Needs improvement"
+        },
+        {
+          "grade": "C-",
+          "score": 2.79,
+          "comment": "Room for growth"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "uuid": "CC6B1",
+      "account_id": 7,
+      "account_name": "Valley Heating & Cooling",
+      "reference_date": "2025-02-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "C",
+          "score": 2.0,
+          "comment": "Strong results"
+        },
+        {
+          "grade": "C",
+          "score": 4.23,
+          "comment": "Meets standards"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "uuid": "C547C",
+      "account_id": 7,
+      "account_name": "Valley Heating & Cooling",
+      "reference_date": "2025-02-01",
+      "report_card_type": "Custom Agency Report Card",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 5.0,
+          "comment": "Excellent performance"
+        },
+        {
+          "grade": "A",
+          "score": 4.71,
+          "comment": "Needs improvement"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "uuid": "3FC17",
+      "account_id": 8,
+      "account_name": "Metro Plumbing Experts",
+      "reference_date": "2025-02-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "A-",
+          "score": 2.63,
+          "comment": "Exceeds expectations"
+        },
+        {
+          "grade": "B+",
+          "score": 4.46,
+          "comment": "Excellent performance"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "uuid": "BC043",
+      "account_id": 8,
+      "account_name": "Metro Plumbing Experts",
+      "reference_date": "2025-02-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "A+",
+          "score": 4.94,
+          "comment": "Outstanding work"
+        },
+        {
+          "grade": "C",
+          "score": 2.14,
+          "comment": "Steady improvement"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "uuid": "DD394",
+      "account_id": 9,
+      "account_name": "Elite HVAC Services",
+      "reference_date": "2025-02-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "C-",
+          "score": 3.65,
+          "comment": "Exceeds expectations"
+        },
+        {
+          "grade": "A-",
+          "score": 1.76,
+          "comment": "Needs improvement"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "uuid": "79021",
+      "account_id": 10,
+      "account_name": "Precision Pipe & Climate",
+      "reference_date": "2025-02-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "C-",
+          "score": 1.24,
+          "comment": "Solid execution"
+        },
+        {
+          "grade": "A+",
+          "score": 1.2,
+          "comment": "Exceeds expectations"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "uuid": "6578B",
+      "account_id": 1,
+      "account_name": "Arctic Air HVAC Solutions",
+      "reference_date": "2025-03-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "A-",
+          "score": 1.23,
+          "comment": "Meets standards"
+        },
+        {
+          "grade": "A",
+          "score": 4.41,
+          "comment": "Strong results"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "uuid": "34E95",
+      "account_id": 2,
+      "account_name": "Sunshine Plumbing & Heating",
+      "reference_date": "2025-03-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "B+",
+          "score": 2.62,
+          "comment": "Requires attention"
+        },
+        {
+          "grade": "B+",
+          "score": 3.32,
+          "comment": "Excellent performance"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "uuid": "41D04",
+      "account_id": 2,
+      "account_name": "Sunshine Plumbing & Heating",
+      "reference_date": "2025-03-01",
+      "report_card_type": "Custom Agency Report Card",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 3.26,
+          "comment": "Solid execution"
+        },
+        {
+          "grade": "B",
+          "score": 1.82,
+          "comment": "Steady improvement"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "uuid": "645DC",
+      "account_id": 3,
+      "account_name": "Premier Comfort Systems",
+      "reference_date": "2025-03-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "B-",
+          "score": 1.95,
+          "comment": "Room for growth"
+        },
+        {
+          "grade": "A-",
+          "score": 3.69,
+          "comment": "Outstanding work"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "uuid": "755BE",
+      "account_id": 3,
+      "account_name": "Premier Comfort Systems",
+      "reference_date": "2025-03-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "A",
+          "score": 1.04,
+          "comment": "Requires attention"
+        },
+        {
+          "grade": "D",
+          "score": 4.98,
+          "comment": "Strong results"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "uuid": "D240B",
+      "account_id": 4,
+      "account_name": "Blue Ridge Mechanical",
+      "reference_date": "2025-03-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "C-",
+          "score": 2.06,
+          "comment": "Solid execution"
+        },
+        {
+          "grade": "A",
+          "score": 4.52,
+          "comment": "Solid execution"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "uuid": "20378",
+      "account_id": 4,
+      "account_name": "Blue Ridge Mechanical",
+      "reference_date": "2025-03-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "C",
+          "score": 4.33,
+          "comment": "Steady improvement"
+        },
+        {
+          "grade": "B",
+          "score": 3.45,
+          "comment": "Impressive gains"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "uuid": "E7C21",
+      "account_id": 5,
+      "account_name": "Coastal Climate Control",
+      "reference_date": "2025-03-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 4.27,
+          "comment": "Outstanding work"
+        },
+        {
+          "grade": "F",
+          "score": 1.41,
+          "comment": "Good progress"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "uuid": "F4DC9",
+      "account_id": 5,
+      "account_name": "Coastal Climate Control",
+      "reference_date": "2025-03-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "A",
+          "score": 3.97,
+          "comment": "Good progress"
+        },
+        {
+          "grade": "B",
+          "score": 2.13,
+          "comment": "Needs improvement"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "uuid": "A46FF",
+      "account_id": 6,
+      "account_name": "Mountain View Plumbing",
+      "reference_date": "2025-03-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "B+",
+          "score": 3.75,
+          "comment": "Outstanding work"
+        },
+        {
+          "grade": "C-",
+          "score": 2.95,
+          "comment": "Excellent performance"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "uuid": "0C019",
+      "account_id": 6,
+      "account_name": "Mountain View Plumbing",
+      "reference_date": "2025-03-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "C+",
+          "score": 4.32,
+          "comment": "Excellent performance"
+        },
+        {
+          "grade": "A+",
+          "score": 2.33,
+          "comment": "Good progress"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "uuid": "0A8A8",
+      "account_id": 7,
+      "account_name": "Valley Heating & Cooling",
+      "reference_date": "2025-03-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "B",
+          "score": 1.65,
+          "comment": "Exceeds expectations"
+        },
+        {
+          "grade": "C-",
+          "score": 3.82,
+          "comment": "Meets standards"
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "uuid": "CC627",
+      "account_id": 7,
+      "account_name": "Valley Heating & Cooling",
+      "reference_date": "2025-03-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "A",
+          "score": 4.78,
+          "comment": "Steady improvement"
+        },
+        {
+          "grade": "A-",
+          "score": 3.18,
+          "comment": "Solid execution"
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "uuid": "2D38E",
+      "account_id": 8,
+      "account_name": "Metro Plumbing Experts",
+      "reference_date": "2025-03-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "A-",
+          "score": 2.72,
+          "comment": "Excellent performance"
+        },
+        {
+          "grade": "B",
+          "score": 2.46,
+          "comment": "Excellent performance"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "uuid": "52DB9",
+      "account_id": 8,
+      "account_name": "Metro Plumbing Experts",
+      "reference_date": "2025-03-01",
+      "report_card_type": "Custom Agency Report Card",
+      "sections": [
+        {
+          "grade": "B+",
+          "score": 3.67,
+          "comment": "Solid execution"
+        },
+        {
+          "grade": "C-",
+          "score": 4.54,
+          "comment": "Room for growth"
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "uuid": "45C8C",
+      "account_id": 9,
+      "account_name": "Elite HVAC Services",
+      "reference_date": "2025-03-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 4.0,
+          "comment": "Needs improvement"
+        },
+        {
+          "grade": "A-",
+          "score": 4.9,
+          "comment": "Good progress"
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "uuid": "B2EDC",
+      "account_id": 9,
+      "account_name": "Elite HVAC Services",
+      "reference_date": "2025-03-01",
+      "report_card_type": "Custom Agency Report Card",
+      "sections": [
+        {
+          "grade": "B-",
+          "score": 4.13,
+          "comment": "Room for growth"
+        },
+        {
+          "grade": "F",
+          "score": 4.46,
+          "comment": "Needs improvement"
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "uuid": "E87D7",
+      "account_id": 10,
+      "account_name": "Precision Pipe & Climate",
+      "reference_date": "2025-03-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "B",
+          "score": 1.64,
+          "comment": "Steady improvement"
+        },
+        {
+          "grade": "A",
+          "score": 2.53,
+          "comment": "Excellent performance"
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "uuid": "3578C",
+      "account_id": 10,
+      "account_name": "Precision Pipe & Climate",
+      "reference_date": "2025-03-01",
+      "report_card_type": "Custom Agency Report Card",
+      "sections": [
+        {
+          "grade": "C",
+          "score": 2.4,
+          "comment": "Needs improvement"
+        },
+        {
+          "grade": "B+",
+          "score": 1.09,
+          "comment": "Needs improvement"
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "uuid": "D5585",
+      "account_id": 1,
+      "account_name": "Arctic Air HVAC Solutions",
+      "reference_date": "2025-04-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "C+",
+          "score": 2.31,
+          "comment": "Strong results"
+        },
+        {
+          "grade": "B",
+          "score": 2.4,
+          "comment": "Meets standards"
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "uuid": "91957",
+      "account_id": 1,
+      "account_name": "Arctic Air HVAC Solutions",
+      "reference_date": "2025-04-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "C-",
+          "score": 2.32,
+          "comment": "Excellent performance"
+        },
+        {
+          "grade": "A",
+          "score": 4.51,
+          "comment": "Outstanding work"
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "uuid": "FB0B8",
+      "account_id": 1,
+      "account_name": "Arctic Air HVAC Solutions",
+      "reference_date": "2025-04-01",
+      "report_card_type": "Custom Agency Report Card",
+      "sections": [
+        {
+          "grade": "B",
+          "score": 1.15,
+          "comment": "Requires attention"
+        },
+        {
+          "grade": "C+",
+          "score": 2.38,
+          "comment": "Solid execution"
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "uuid": "05B9F",
+      "account_id": 2,
+      "account_name": "Sunshine Plumbing & Heating",
+      "reference_date": "2025-04-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "C+",
+          "score": 3.42,
+          "comment": "Meets standards"
+        },
+        {
+          "grade": "A",
+          "score": 2.54,
+          "comment": "Requires attention"
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "uuid": "14129",
+      "account_id": 2,
+      "account_name": "Sunshine Plumbing & Heating",
+      "reference_date": "2025-04-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "A+",
+          "score": 3.84,
+          "comment": "Excellent performance"
+        },
+        {
+          "grade": "C-",
+          "score": 4.7,
+          "comment": "Meets standards"
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "uuid": "F4714",
+      "account_id": 3,
+      "account_name": "Premier Comfort Systems",
+      "reference_date": "2025-04-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.79,
+          "comment": "Room for growth"
+        },
+        {
+          "grade": "A",
+          "score": 4.8,
+          "comment": "Solid execution"
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "uuid": "2CEC1",
+      "account_id": 4,
+      "account_name": "Blue Ridge Mechanical",
+      "reference_date": "2025-04-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "A",
+          "score": 3.88,
+          "comment": "Outstanding work"
+        },
+        {
+          "grade": "C-",
+          "score": 2.24,
+          "comment": "Room for growth"
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "uuid": "19066",
+      "account_id": 4,
+      "account_name": "Blue Ridge Mechanical",
+      "reference_date": "2025-04-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "B",
+          "score": 3.22,
+          "comment": "Needs improvement"
+        },
+        {
+          "grade": "C+",
+          "score": 3.66,
+          "comment": "Room for growth"
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "uuid": "43C7F",
+      "account_id": 5,
+      "account_name": "Coastal Climate Control",
+      "reference_date": "2025-04-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "A-",
+          "score": 3.46,
+          "comment": "Outstanding work"
+        },
+        {
+          "grade": "C+",
+          "score": 3.19,
+          "comment": "Excellent performance"
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "uuid": "F1321",
+      "account_id": 5,
+      "account_name": "Coastal Climate Control",
+      "reference_date": "2025-04-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "B+",
+          "score": 2.72,
+          "comment": "Requires attention"
+        },
+        {
+          "grade": "D",
+          "score": 3.62,
+          "comment": "Exceeds expectations"
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "uuid": "02A4E",
+      "account_id": 5,
+      "account_name": "Coastal Climate Control",
+      "reference_date": "2025-04-01",
+      "report_card_type": "Custom Agency Report Card",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.85,
+          "comment": "Exceeds expectations"
+        },
+        {
+          "grade": "A-",
+          "score": 3.64,
+          "comment": "Outstanding work"
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "uuid": "87B7B",
+      "account_id": 6,
+      "account_name": "Mountain View Plumbing",
+      "reference_date": "2025-04-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "C-",
+          "score": 3.66,
+          "comment": "Requires attention"
+        },
+        {
+          "grade": "B-",
+          "score": 1.37,
+          "comment": "Needs improvement"
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "uuid": "FBD73",
+      "account_id": 6,
+      "account_name": "Mountain View Plumbing",
+      "reference_date": "2025-04-01",
+      "report_card_type": "Custom Agency Report Card",
+      "sections": [
+        {
+          "grade": "B+",
+          "score": 1.59,
+          "comment": "Excellent performance"
+        },
+        {
+          "grade": "B+",
+          "score": 4.94,
+          "comment": "Requires attention"
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "uuid": "6DF94",
+      "account_id": 7,
+      "account_name": "Valley Heating & Cooling",
+      "reference_date": "2025-04-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "A",
+          "score": 2.82,
+          "comment": "Impressive gains"
+        },
+        {
+          "grade": "D",
+          "score": 1.78,
+          "comment": "Steady improvement"
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "uuid": "FAF74",
+      "account_id": 7,
+      "account_name": "Valley Heating & Cooling",
+      "reference_date": "2025-04-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "C+",
+          "score": 1.98,
+          "comment": "Impressive gains"
+        },
+        {
+          "grade": "A+",
+          "score": 4.57,
+          "comment": "Strong results"
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "uuid": "4EDDD",
+      "account_id": 8,
+      "account_name": "Metro Plumbing Experts",
+      "reference_date": "2025-04-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "B+",
+          "score": 1.7,
+          "comment": "Steady improvement"
+        },
+        {
+          "grade": "C-",
+          "score": 2.86,
+          "comment": "Meets standards"
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "uuid": "B3F3B",
+      "account_id": 8,
+      "account_name": "Metro Plumbing Experts",
+      "reference_date": "2025-04-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "A",
+          "score": 2.83,
+          "comment": "Exceeds expectations"
+        },
+        {
+          "grade": "F",
+          "score": 3.12,
+          "comment": "Meets standards"
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "uuid": "0E37A",
+      "account_id": 9,
+      "account_name": "Elite HVAC Services",
+      "reference_date": "2025-04-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "C",
+          "score": 3.45,
+          "comment": "Steady improvement"
+        },
+        {
+          "grade": "C-",
+          "score": 2.71,
+          "comment": "Meets standards"
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "uuid": "41BCB",
+      "account_id": 9,
+      "account_name": "Elite HVAC Services",
+      "reference_date": "2025-04-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "A-",
+          "score": 3.97,
+          "comment": "Exceeds expectations"
+        },
+        {
+          "grade": "C",
+          "score": 2.04,
+          "comment": "Needs improvement"
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "uuid": "C4E20",
+      "account_id": 10,
+      "account_name": "Precision Pipe & Climate",
+      "reference_date": "2025-04-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "B",
+          "score": 4.06,
+          "comment": "Meets standards"
+        },
+        {
+          "grade": "C",
+          "score": 3.51,
+          "comment": "Outstanding work"
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "uuid": "F22FE",
+      "account_id": 10,
+      "account_name": "Precision Pipe & Climate",
+      "reference_date": "2025-04-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "B",
+          "score": 1.94,
+          "comment": "Solid execution"
+        },
+        {
+          "grade": "B-",
+          "score": 4.57,
+          "comment": "Strong results"
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "uuid": "6EFB1",
+      "account_id": 10,
+      "account_name": "Precision Pipe & Climate",
+      "reference_date": "2025-04-01",
+      "report_card_type": "Custom Agency Report Card",
+      "sections": [
+        {
+          "grade": "B+",
+          "score": 2.53,
+          "comment": "Good progress"
+        },
+        {
+          "grade": "B+",
+          "score": 1.26,
+          "comment": "Room for growth"
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "uuid": "FE180",
+      "account_id": 1,
+      "account_name": "Arctic Air HVAC Solutions",
+      "reference_date": "2025-05-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "B-",
+          "score": 3.17,
+          "comment": "Room for growth"
+        },
+        {
+          "grade": "A+",
+          "score": 1.83,
+          "comment": "Room for growth"
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "uuid": "CF2DE",
+      "account_id": 1,
+      "account_name": "Arctic Air HVAC Solutions",
+      "reference_date": "2025-05-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 4.78,
+          "comment": "Excellent performance"
+        },
+        {
+          "grade": "D",
+          "score": 2.52,
+          "comment": "Excellent performance"
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "uuid": "9C173",
+      "account_id": 2,
+      "account_name": "Sunshine Plumbing & Heating",
+      "reference_date": "2025-05-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "B",
+          "score": 4.01,
+          "comment": "Room for growth"
+        },
+        {
+          "grade": "C-",
+          "score": 3.99,
+          "comment": "Meets standards"
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "uuid": "12964",
+      "account_id": 3,
+      "account_name": "Premier Comfort Systems",
+      "reference_date": "2025-05-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "C",
+          "score": 1.88,
+          "comment": "Room for growth"
+        },
+        {
+          "grade": "C",
+          "score": 1.12,
+          "comment": "Solid execution"
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "uuid": "ACD0D",
+      "account_id": 4,
+      "account_name": "Blue Ridge Mechanical",
+      "reference_date": "2025-05-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "A-",
+          "score": 4.36,
+          "comment": "Good progress"
+        },
+        {
+          "grade": "D",
+          "score": 3.14,
+          "comment": "Room for growth"
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "uuid": "C3CEB",
+      "account_id": 5,
+      "account_name": "Coastal Climate Control",
+      "reference_date": "2025-05-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "A",
+          "score": 3.57,
+          "comment": "Good progress"
+        },
+        {
+          "grade": "C",
+          "score": 1.73,
+          "comment": "Outstanding work"
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "uuid": "658C4",
+      "account_id": 5,
+      "account_name": "Coastal Climate Control",
+      "reference_date": "2025-05-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "B+",
+          "score": 2.82,
+          "comment": "Solid execution"
+        },
+        {
+          "grade": "C+",
+          "score": 2.11,
+          "comment": "Room for growth"
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "uuid": "4E9ED",
+      "account_id": 5,
+      "account_name": "Coastal Climate Control",
+      "reference_date": "2025-05-01",
+      "report_card_type": "Custom Agency Report Card",
+      "sections": [
+        {
+          "grade": "A",
+          "score": 2.88,
+          "comment": "Steady improvement"
+        },
+        {
+          "grade": "C-",
+          "score": 1.21,
+          "comment": "Solid execution"
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "uuid": "60191",
+      "account_id": 6,
+      "account_name": "Mountain View Plumbing",
+      "reference_date": "2025-05-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "B+",
+          "score": 3.6,
+          "comment": "Impressive gains"
+        },
+        {
+          "grade": "A+",
+          "score": 4.02,
+          "comment": "Needs improvement"
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "uuid": "956FC",
+      "account_id": 6,
+      "account_name": "Mountain View Plumbing",
+      "reference_date": "2025-05-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "A+",
+          "score": 3.49,
+          "comment": "Needs improvement"
+        },
+        {
+          "grade": "A-",
+          "score": 2.89,
+          "comment": "Strong results"
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "uuid": "C516A",
+      "account_id": 7,
+      "account_name": "Valley Heating & Cooling",
+      "reference_date": "2025-05-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "B+",
+          "score": 2.86,
+          "comment": "Outstanding work"
+        },
+        {
+          "grade": "B-",
+          "score": 1.67,
+          "comment": "Requires attention"
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "uuid": "74C2C",
+      "account_id": 8,
+      "account_name": "Metro Plumbing Experts",
+      "reference_date": "2025-05-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "A-",
+          "score": 4.86,
+          "comment": "Strong results"
+        },
+        {
+          "grade": "D",
+          "score": 1.1,
+          "comment": "Outstanding work"
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "uuid": "AD6EB",
+      "account_id": 9,
+      "account_name": "Elite HVAC Services",
+      "reference_date": "2025-05-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "C+",
+          "score": 2.59,
+          "comment": "Steady improvement"
+        },
+        {
+          "grade": "B+",
+          "score": 1.3,
+          "comment": "Steady improvement"
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "uuid": "8189D",
+      "account_id": 9,
+      "account_name": "Elite HVAC Services",
+      "reference_date": "2025-05-01",
+      "report_card_type": "Custom Agency Report Card",
+      "sections": [
+        {
+          "grade": "B",
+          "score": 4.4,
+          "comment": "Requires attention"
+        },
+        {
+          "grade": "A",
+          "score": 4.18,
+          "comment": "Requires attention"
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "uuid": "DD58A",
+      "account_id": 10,
+      "account_name": "Precision Pipe & Climate",
+      "reference_date": "2025-05-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "A+",
+          "score": 2.39,
+          "comment": "Room for growth"
+        },
+        {
+          "grade": "F",
+          "score": 2.48,
+          "comment": "Meets standards"
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "uuid": "97436",
+      "account_id": 10,
+      "account_name": "Precision Pipe & Climate",
+      "reference_date": "2025-05-01",
+      "report_card_type": "Custom Agency Report Card",
+      "sections": [
+        {
+          "grade": "C+",
+          "score": 4.29,
+          "comment": "Strong results"
+        },
+        {
+          "grade": "C+",
+          "score": 4.84,
+          "comment": "Impressive gains"
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "uuid": "3E309",
+      "account_id": 1,
+      "account_name": "Arctic Air HVAC Solutions",
+      "reference_date": "2025-06-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "C",
+          "score": 3.83,
+          "comment": "Room for growth"
+        },
+        {
+          "grade": "A-",
+          "score": 3.94,
+          "comment": "Impressive gains"
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "uuid": "BC92F",
+      "account_id": 1,
+      "account_name": "Arctic Air HVAC Solutions",
+      "reference_date": "2025-06-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "C-",
+          "score": 4.1,
+          "comment": "Exceeds expectations"
+        },
+        {
+          "grade": "C+",
+          "score": 4.3,
+          "comment": "Requires attention"
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "uuid": "B11E1",
+      "account_id": 1,
+      "account_name": "Arctic Air HVAC Solutions",
+      "reference_date": "2025-06-01",
+      "report_card_type": "Custom Agency Report Card",
+      "sections": [
+        {
+          "grade": "B+",
+          "score": 4.32,
+          "comment": "Strong results"
+        },
+        {
+          "grade": "B",
+          "score": 4.53,
+          "comment": "Needs improvement"
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "uuid": "85A1B",
+      "account_id": 2,
+      "account_name": "Sunshine Plumbing & Heating",
+      "reference_date": "2025-06-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "C",
+          "score": 3.28,
+          "comment": "Impressive gains"
+        },
+        {
+          "grade": "C+",
+          "score": 2.35,
+          "comment": "Exceeds expectations"
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "uuid": "D75F0",
+      "account_id": 2,
+      "account_name": "Sunshine Plumbing & Heating",
+      "reference_date": "2025-06-01",
+      "report_card_type": "Custom Agency Report Card",
+      "sections": [
+        {
+          "grade": "B+",
+          "score": 2.42,
+          "comment": "Outstanding work"
+        },
+        {
+          "grade": "B-",
+          "score": 2.12,
+          "comment": "Requires attention"
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "uuid": "CA2C6",
+      "account_id": 3,
+      "account_name": "Premier Comfort Systems",
+      "reference_date": "2025-06-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "B",
+          "score": 3.22,
+          "comment": "Meets standards"
+        },
+        {
+          "grade": "B+",
+          "score": 1.34,
+          "comment": "Steady improvement"
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "uuid": "FE97A",
+      "account_id": 3,
+      "account_name": "Premier Comfort Systems",
+      "reference_date": "2025-06-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "C-",
+          "score": 4.03,
+          "comment": "Steady improvement"
+        },
+        {
+          "grade": "C",
+          "score": 3.58,
+          "comment": "Exceeds expectations"
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "uuid": "DAE61",
+      "account_id": 3,
+      "account_name": "Premier Comfort Systems",
+      "reference_date": "2025-06-01",
+      "report_card_type": "Custom Agency Report Card",
+      "sections": [
+        {
+          "grade": "A+",
+          "score": 1.37,
+          "comment": "Needs improvement"
+        },
+        {
+          "grade": "C+",
+          "score": 3.77,
+          "comment": "Outstanding work"
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "uuid": "80B3A",
+      "account_id": 4,
+      "account_name": "Blue Ridge Mechanical",
+      "reference_date": "2025-06-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 3.33,
+          "comment": "Exceeds expectations"
+        },
+        {
+          "grade": "C-",
+          "score": 3.12,
+          "comment": "Room for growth"
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "uuid": "E7A52",
+      "account_id": 5,
+      "account_name": "Coastal Climate Control",
+      "reference_date": "2025-06-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "B-",
+          "score": 3.81,
+          "comment": "Outstanding work"
+        },
+        {
+          "grade": "B",
+          "score": 2.01,
+          "comment": "Strong results"
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "uuid": "07C39",
+      "account_id": 5,
+      "account_name": "Coastal Climate Control",
+      "reference_date": "2025-06-01",
+      "report_card_type": "Custom Agency Report Card",
+      "sections": [
+        {
+          "grade": "C-",
+          "score": 4.8,
+          "comment": "Steady improvement"
+        },
+        {
+          "grade": "A-",
+          "score": 1.77,
+          "comment": "Steady improvement"
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "uuid": "91FD9",
+      "account_id": 6,
+      "account_name": "Mountain View Plumbing",
+      "reference_date": "2025-06-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "C",
+          "score": 2.11,
+          "comment": "Requires attention"
+        },
+        {
+          "grade": "C-",
+          "score": 3.39,
+          "comment": "Strong results"
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "uuid": "8658D",
+      "account_id": 6,
+      "account_name": "Mountain View Plumbing",
+      "reference_date": "2025-06-01",
+      "report_card_type": "Custom Agency Report Card",
+      "sections": [
+        {
+          "grade": "B-",
+          "score": 1.72,
+          "comment": "Excellent performance"
+        },
+        {
+          "grade": "C-",
+          "score": 1.51,
+          "comment": "Excellent performance"
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "uuid": "AC5F7",
+      "account_id": 7,
+      "account_name": "Valley Heating & Cooling",
+      "reference_date": "2025-06-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "A+",
+          "score": 3.21,
+          "comment": "Steady improvement"
+        },
+        {
+          "grade": "A-",
+          "score": 3.55,
+          "comment": "Exceeds expectations"
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "uuid": "74F37",
+      "account_id": 7,
+      "account_name": "Valley Heating & Cooling",
+      "reference_date": "2025-06-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "A+",
+          "score": 3.3,
+          "comment": "Exceeds expectations"
+        },
+        {
+          "grade": "C",
+          "score": 2.76,
+          "comment": "Good progress"
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "uuid": "44A6B",
+      "account_id": 8,
+      "account_name": "Metro Plumbing Experts",
+      "reference_date": "2025-06-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "B",
+          "score": 4.76,
+          "comment": "Exceeds expectations"
+        },
+        {
+          "grade": "A",
+          "score": 4.29,
+          "comment": "Room for growth"
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "uuid": "10D18",
+      "account_id": 8,
+      "account_name": "Metro Plumbing Experts",
+      "reference_date": "2025-06-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 3.52,
+          "comment": "Excellent performance"
+        },
+        {
+          "grade": "A-",
+          "score": 1.6,
+          "comment": "Requires attention"
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "uuid": "D67E9",
+      "account_id": 9,
+      "account_name": "Elite HVAC Services",
+      "reference_date": "2025-06-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "A",
+          "score": 4.98,
+          "comment": "Strong results"
+        },
+        {
+          "grade": "C-",
+          "score": 4.06,
+          "comment": "Requires attention"
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "uuid": "F5654",
+      "account_id": 10,
+      "account_name": "Precision Pipe & Climate",
+      "reference_date": "2025-06-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "C-",
+          "score": 2.52,
+          "comment": "Exceeds expectations"
+        },
+        {
+          "grade": "B",
+          "score": 4.44,
+          "comment": "Room for growth"
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "uuid": "F65FC",
+      "account_id": 10,
+      "account_name": "Precision Pipe & Climate",
+      "reference_date": "2025-06-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 1.24,
+          "comment": "Steady improvement"
+        },
+        {
+          "grade": "A",
+          "score": 4.79,
+          "comment": "Needs improvement"
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "uuid": "D982F",
+      "account_id": 1,
+      "account_name": "Arctic Air HVAC Solutions",
+      "reference_date": "2025-07-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "B",
+          "score": 3.64,
+          "comment": "Good progress"
+        },
+        {
+          "grade": "B+",
+          "score": 1.7,
+          "comment": "Strong results"
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "uuid": "80727",
+      "account_id": 1,
+      "account_name": "Arctic Air HVAC Solutions",
+      "reference_date": "2025-07-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "C+",
+          "score": 2.8,
+          "comment": "Requires attention"
+        },
+        {
+          "grade": "C",
+          "score": 2.17,
+          "comment": "Needs improvement"
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "uuid": "F4617",
+      "account_id": 1,
+      "account_name": "Arctic Air HVAC Solutions",
+      "reference_date": "2025-07-01",
+      "report_card_type": "Custom Agency Report Card",
+      "sections": [
+        {
+          "grade": "B",
+          "score": 3.81,
+          "comment": "Exceeds expectations"
+        },
+        {
+          "grade": "A",
+          "score": 3.75,
+          "comment": "Outstanding work"
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "uuid": "2E89D",
+      "account_id": 2,
+      "account_name": "Sunshine Plumbing & Heating",
+      "reference_date": "2025-07-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 3.36,
+          "comment": "Needs improvement"
+        },
+        {
+          "grade": "C+",
+          "score": 1.46,
+          "comment": "Needs improvement"
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "uuid": "324C0",
+      "account_id": 3,
+      "account_name": "Premier Comfort Systems",
+      "reference_date": "2025-07-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "A-",
+          "score": 1.29,
+          "comment": "Good progress"
+        },
+        {
+          "grade": "B",
+          "score": 3.38,
+          "comment": "Requires attention"
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "uuid": "CD926",
+      "account_id": 3,
+      "account_name": "Premier Comfort Systems",
+      "reference_date": "2025-07-01",
+      "report_card_type": "Custom Agency Report Card",
+      "sections": [
+        {
+          "grade": "C",
+          "score": 3.75,
+          "comment": "Steady improvement"
+        },
+        {
+          "grade": "C+",
+          "score": 4.77,
+          "comment": "Meets standards"
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "uuid": "33195",
+      "account_id": 4,
+      "account_name": "Blue Ridge Mechanical",
+      "reference_date": "2025-07-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "C-",
+          "score": 2.98,
+          "comment": "Strong results"
+        },
+        {
+          "grade": "D",
+          "score": 1.16,
+          "comment": "Room for growth"
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "uuid": "F20B5",
+      "account_id": 5,
+      "account_name": "Coastal Climate Control",
+      "reference_date": "2025-07-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "A+",
+          "score": 1.37,
+          "comment": "Impressive gains"
+        },
+        {
+          "grade": "D",
+          "score": 3.35,
+          "comment": "Excellent performance"
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "uuid": "39BAE",
+      "account_id": 6,
+      "account_name": "Mountain View Plumbing",
+      "reference_date": "2025-07-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "B",
+          "score": 3.3,
+          "comment": "Good progress"
+        },
+        {
+          "grade": "C",
+          "score": 3.08,
+          "comment": "Exceeds expectations"
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "uuid": "9C672",
+      "account_id": 6,
+      "account_name": "Mountain View Plumbing",
+      "reference_date": "2025-07-01",
+      "report_card_type": "Custom Agency Report Card",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.74,
+          "comment": "Exceeds expectations"
+        },
+        {
+          "grade": "A",
+          "score": 2.88,
+          "comment": "Room for growth"
+        }
+      ]
+    },
+    {
+      "id": 127,
+      "uuid": "4C43D",
+      "account_id": 7,
+      "account_name": "Valley Heating & Cooling",
+      "reference_date": "2025-07-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "B-",
+          "score": 2.28,
+          "comment": "Strong results"
+        },
+        {
+          "grade": "A-",
+          "score": 2.32,
+          "comment": "Steady improvement"
+        }
+      ]
+    },
+    {
+      "id": 128,
+      "uuid": "B8684",
+      "account_id": 7,
+      "account_name": "Valley Heating & Cooling",
+      "reference_date": "2025-07-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 4.78,
+          "comment": "Meets standards"
+        },
+        {
+          "grade": "A+",
+          "score": 2.82,
+          "comment": "Solid execution"
+        }
+      ]
+    },
+    {
+      "id": 129,
+      "uuid": "7EAD6",
+      "account_id": 7,
+      "account_name": "Valley Heating & Cooling",
+      "reference_date": "2025-07-01",
+      "report_card_type": "Custom Agency Report Card",
+      "sections": [
+        {
+          "grade": "A",
+          "score": 4.88,
+          "comment": "Room for growth"
+        },
+        {
+          "grade": "C-",
+          "score": 4.3,
+          "comment": "Excellent performance"
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "uuid": "89DC0",
+      "account_id": 8,
+      "account_name": "Metro Plumbing Experts",
+      "reference_date": "2025-07-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 4.48,
+          "comment": "Exceeds expectations"
+        },
+        {
+          "grade": "C+",
+          "score": 1.22,
+          "comment": "Meets standards"
+        }
+      ]
+    },
+    {
+      "id": 131,
+      "uuid": "4DF2E",
+      "account_id": 8,
+      "account_name": "Metro Plumbing Experts",
+      "reference_date": "2025-07-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "C",
+          "score": 3.5,
+          "comment": "Excellent performance"
+        },
+        {
+          "grade": "B+",
+          "score": 2.07,
+          "comment": "Good progress"
+        }
+      ]
+    },
+    {
+      "id": 132,
+      "uuid": "84EBD",
+      "account_id": 9,
+      "account_name": "Elite HVAC Services",
+      "reference_date": "2025-07-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "C",
+          "score": 4.52,
+          "comment": "Exceeds expectations"
+        },
+        {
+          "grade": "A",
+          "score": 1.12,
+          "comment": "Impressive gains"
+        }
+      ]
+    },
+    {
+      "id": 133,
+      "uuid": "C6E82",
+      "account_id": 9,
+      "account_name": "Elite HVAC Services",
+      "reference_date": "2025-07-01",
+      "report_card_type": "Custom Agency Report Card",
+      "sections": [
+        {
+          "grade": "A-",
+          "score": 2.24,
+          "comment": "Excellent performance"
+        },
+        {
+          "grade": "C-",
+          "score": 2.63,
+          "comment": "Needs improvement"
+        }
+      ]
+    },
+    {
+      "id": 134,
+      "uuid": "E8477",
+      "account_id": 10,
+      "account_name": "Precision Pipe & Climate",
+      "reference_date": "2025-07-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "A",
+          "score": 2.85,
+          "comment": "Strong results"
+        },
+        {
+          "grade": "F",
+          "score": 4.33,
+          "comment": "Exceeds expectations"
+        }
+      ]
+    },
+    {
+      "id": 135,
+      "uuid": "3232B",
+      "account_id": 10,
+      "account_name": "Precision Pipe & Climate",
+      "reference_date": "2025-07-01",
+      "report_card_type": "Custom Agency Report Card",
+      "sections": [
+        {
+          "grade": "B",
+          "score": 2.66,
+          "comment": "Exceeds expectations"
+        },
+        {
+          "grade": "C",
+          "score": 1.97,
+          "comment": "Meets standards"
+        }
+      ]
+    },
+    {
+      "id": 136,
+      "uuid": "431F3",
+      "account_id": 1,
+      "account_name": "Arctic Air HVAC Solutions",
+      "reference_date": "2025-08-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "A-",
+          "score": 2.53,
+          "comment": "Requires attention"
+        },
+        {
+          "grade": "C-",
+          "score": 3.99,
+          "comment": "Good progress"
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "uuid": "C96A2",
+      "account_id": 1,
+      "account_name": "Arctic Air HVAC Solutions",
+      "reference_date": "2025-08-01",
+      "report_card_type": "Custom Agency Report Card",
+      "sections": [
+        {
+          "grade": "C+",
+          "score": 2.36,
+          "comment": "Meets standards"
+        },
+        {
+          "grade": "B",
+          "score": 4.28,
+          "comment": "Outstanding work"
+        }
+      ]
+    },
+    {
+      "id": 138,
+      "uuid": "EB292",
+      "account_id": 2,
+      "account_name": "Sunshine Plumbing & Heating",
+      "reference_date": "2025-08-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "B",
+          "score": 4.35,
+          "comment": "Requires attention"
+        },
+        {
+          "grade": "F",
+          "score": 2.96,
+          "comment": "Good progress"
+        }
+      ]
+    },
+    {
+      "id": 139,
+      "uuid": "9741F",
+      "account_id": 2,
+      "account_name": "Sunshine Plumbing & Heating",
+      "reference_date": "2025-08-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "C",
+          "score": 2.38,
+          "comment": "Meets standards"
+        },
+        {
+          "grade": "C-",
+          "score": 2.51,
+          "comment": "Solid execution"
+        }
+      ]
+    },
+    {
+      "id": 140,
+      "uuid": "FD824",
+      "account_id": 3,
+      "account_name": "Premier Comfort Systems",
+      "reference_date": "2025-08-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "B+",
+          "score": 3.29,
+          "comment": "Needs improvement"
+        },
+        {
+          "grade": "C+",
+          "score": 1.17,
+          "comment": "Steady improvement"
+        }
+      ]
+    },
+    {
+      "id": 141,
+      "uuid": "37EF9",
+      "account_id": 3,
+      "account_name": "Premier Comfort Systems",
+      "reference_date": "2025-08-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "C+",
+          "score": 2.54,
+          "comment": "Impressive gains"
+        },
+        {
+          "grade": "F",
+          "score": 4.92,
+          "comment": "Exceeds expectations"
+        }
+      ]
+    },
+    {
+      "id": 142,
+      "uuid": "FAC7A",
+      "account_id": 4,
+      "account_name": "Blue Ridge Mechanical",
+      "reference_date": "2025-08-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "A-",
+          "score": 3.01,
+          "comment": "Requires attention"
+        },
+        {
+          "grade": "B-",
+          "score": 4.48,
+          "comment": "Exceeds expectations"
+        }
+      ]
+    },
+    {
+      "id": 143,
+      "uuid": "32ED8",
+      "account_id": 4,
+      "account_name": "Blue Ridge Mechanical",
+      "reference_date": "2025-08-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "C",
+          "score": 1.06,
+          "comment": "Good progress"
+        },
+        {
+          "grade": "C+",
+          "score": 4.48,
+          "comment": "Good progress"
+        }
+      ]
+    },
+    {
+      "id": 144,
+      "uuid": "A8C8D",
+      "account_id": 4,
+      "account_name": "Blue Ridge Mechanical",
+      "reference_date": "2025-08-01",
+      "report_card_type": "Custom Agency Report Card",
+      "sections": [
+        {
+          "grade": "B",
+          "score": 2.35,
+          "comment": "Steady improvement"
+        },
+        {
+          "grade": "C+",
+          "score": 3.6,
+          "comment": "Solid execution"
+        }
+      ]
+    },
+    {
+      "id": 145,
+      "uuid": "C036C",
+      "account_id": 5,
+      "account_name": "Coastal Climate Control",
+      "reference_date": "2025-08-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 4.44,
+          "comment": "Room for growth"
+        },
+        {
+          "grade": "B-",
+          "score": 3.51,
+          "comment": "Exceeds expectations"
+        }
+      ]
+    },
+    {
+      "id": 146,
+      "uuid": "B3398",
+      "account_id": 5,
+      "account_name": "Coastal Climate Control",
+      "reference_date": "2025-08-01",
+      "report_card_type": "Custom Agency Report Card",
+      "sections": [
+        {
+          "grade": "A",
+          "score": 1.94,
+          "comment": "Impressive gains"
+        },
+        {
+          "grade": "B",
+          "score": 4.99,
+          "comment": "Steady improvement"
+        }
+      ]
+    },
+    {
+      "id": 147,
+      "uuid": "DAA1D",
+      "account_id": 6,
+      "account_name": "Mountain View Plumbing",
+      "reference_date": "2025-08-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "A",
+          "score": 2.74,
+          "comment": "Strong results"
+        },
+        {
+          "grade": "F",
+          "score": 3.82,
+          "comment": "Strong results"
+        }
+      ]
+    },
+    {
+      "id": 148,
+      "uuid": "67F54",
+      "account_id": 6,
+      "account_name": "Mountain View Plumbing",
+      "reference_date": "2025-08-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "B",
+          "score": 4.61,
+          "comment": "Excellent performance"
+        },
+        {
+          "grade": "B-",
+          "score": 4.18,
+          "comment": "Outstanding work"
+        }
+      ]
+    },
+    {
+      "id": 149,
+      "uuid": "33342",
+      "account_id": 6,
+      "account_name": "Mountain View Plumbing",
+      "reference_date": "2025-08-01",
+      "report_card_type": "Custom Agency Report Card",
+      "sections": [
+        {
+          "grade": "C+",
+          "score": 1.58,
+          "comment": "Meets standards"
+        },
+        {
+          "grade": "C+",
+          "score": 3.26,
+          "comment": "Good progress"
+        }
+      ]
+    },
+    {
+      "id": 150,
+      "uuid": "24A1E",
+      "account_id": 7,
+      "account_name": "Valley Heating & Cooling",
+      "reference_date": "2025-08-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "A-",
+          "score": 1.7,
+          "comment": "Requires attention"
+        },
+        {
+          "grade": "C+",
+          "score": 3.48,
+          "comment": "Needs improvement"
+        }
+      ]
+    },
+    {
+      "id": 151,
+      "uuid": "DE2A6",
+      "account_id": 7,
+      "account_name": "Valley Heating & Cooling",
+      "reference_date": "2025-08-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 1.57,
+          "comment": "Exceeds expectations"
+        },
+        {
+          "grade": "F",
+          "score": 2.02,
+          "comment": "Outstanding work"
+        }
+      ]
+    },
+    {
+      "id": 152,
+      "uuid": "EC40B",
+      "account_id": 8,
+      "account_name": "Metro Plumbing Experts",
+      "reference_date": "2025-08-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "C",
+          "score": 4.6,
+          "comment": "Impressive gains"
+        },
+        {
+          "grade": "C-",
+          "score": 1.63,
+          "comment": "Exceeds expectations"
+        }
+      ]
+    },
+    {
+      "id": 153,
+      "uuid": "733F0",
+      "account_id": 9,
+      "account_name": "Elite HVAC Services",
+      "reference_date": "2025-08-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "B",
+          "score": 3.56,
+          "comment": "Room for growth"
+        },
+        {
+          "grade": "B",
+          "score": 2.83,
+          "comment": "Outstanding work"
+        }
+      ]
+    },
+    {
+      "id": 154,
+      "uuid": "DA3C5",
+      "account_id": 9,
+      "account_name": "Elite HVAC Services",
+      "reference_date": "2025-08-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "C+",
+          "score": 4.41,
+          "comment": "Strong results"
+        },
+        {
+          "grade": "B+",
+          "score": 2.53,
+          "comment": "Solid execution"
+        }
+      ]
+    },
+    {
+      "id": 155,
+      "uuid": "05B27",
+      "account_id": 10,
+      "account_name": "Precision Pipe & Climate",
+      "reference_date": "2025-08-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "B",
+          "score": 1.09,
+          "comment": "Impressive gains"
+        },
+        {
+          "grade": "C+",
+          "score": 2.1,
+          "comment": "Requires attention"
+        }
+      ]
+    },
+    {
+      "id": 156,
+      "uuid": "B2724",
+      "account_id": 1,
+      "account_name": "Arctic Air HVAC Solutions",
+      "reference_date": "2025-09-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "A+",
+          "score": 4.64,
+          "comment": "Steady improvement"
+        },
+        {
+          "grade": "C",
+          "score": 4.33,
+          "comment": "Outstanding work"
+        }
+      ]
+    },
+    {
+      "id": 157,
+      "uuid": "8FB5F",
+      "account_id": 1,
+      "account_name": "Arctic Air HVAC Solutions",
+      "reference_date": "2025-09-01",
+      "report_card_type": "Custom Agency Report Card",
+      "sections": [
+        {
+          "grade": "B-",
+          "score": 1.88,
+          "comment": "Needs improvement"
+        },
+        {
+          "grade": "D",
+          "score": 2.0,
+          "comment": "Steady improvement"
+        }
+      ]
+    },
+    {
+      "id": 158,
+      "uuid": "A7C7F",
+      "account_id": 2,
+      "account_name": "Sunshine Plumbing & Heating",
+      "reference_date": "2025-09-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 3.72,
+          "comment": "Good progress"
+        },
+        {
+          "grade": "F",
+          "score": 1.39,
+          "comment": "Impressive gains"
+        }
+      ]
+    },
+    {
+      "id": 159,
+      "uuid": "0F92E",
+      "account_id": 2,
+      "account_name": "Sunshine Plumbing & Heating",
+      "reference_date": "2025-09-01",
+      "report_card_type": "Custom Agency Report Card",
+      "sections": [
+        {
+          "grade": "C",
+          "score": 1.13,
+          "comment": "Solid execution"
+        },
+        {
+          "grade": "A-",
+          "score": 1.36,
+          "comment": "Outstanding work"
+        }
+      ]
+    },
+    {
+      "id": 160,
+      "uuid": "2F013",
+      "account_id": 3,
+      "account_name": "Premier Comfort Systems",
+      "reference_date": "2025-09-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "B-",
+          "score": 3.99,
+          "comment": "Good progress"
+        },
+        {
+          "grade": "B+",
+          "score": 1.53,
+          "comment": "Meets standards"
+        }
+      ]
+    },
+    {
+      "id": 161,
+      "uuid": "7345F",
+      "account_id": 3,
+      "account_name": "Premier Comfort Systems",
+      "reference_date": "2025-09-01",
+      "report_card_type": "Custom Agency Report Card",
+      "sections": [
+        {
+          "grade": "C-",
+          "score": 4.65,
+          "comment": "Good progress"
+        },
+        {
+          "grade": "B",
+          "score": 4.66,
+          "comment": "Exceeds expectations"
+        }
+      ]
+    },
+    {
+      "id": 162,
+      "uuid": "BF330",
+      "account_id": 4,
+      "account_name": "Blue Ridge Mechanical",
+      "reference_date": "2025-09-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "B",
+          "score": 3.99,
+          "comment": "Solid execution"
+        },
+        {
+          "grade": "A",
+          "score": 2.87,
+          "comment": "Strong results"
+        }
+      ]
+    },
+    {
+      "id": 163,
+      "uuid": "E0D59",
+      "account_id": 4,
+      "account_name": "Blue Ridge Mechanical",
+      "reference_date": "2025-09-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "B+",
+          "score": 4.44,
+          "comment": "Steady improvement"
+        },
+        {
+          "grade": "F",
+          "score": 4.92,
+          "comment": "Meets standards"
+        }
+      ]
+    },
+    {
+      "id": 164,
+      "uuid": "DD03D",
+      "account_id": 4,
+      "account_name": "Blue Ridge Mechanical",
+      "reference_date": "2025-09-01",
+      "report_card_type": "Custom Agency Report Card",
+      "sections": [
+        {
+          "grade": "C+",
+          "score": 1.06,
+          "comment": "Meets standards"
+        },
+        {
+          "grade": "A",
+          "score": 2.82,
+          "comment": "Impressive gains"
+        }
+      ]
+    },
+    {
+      "id": 165,
+      "uuid": "C751E",
+      "account_id": 5,
+      "account_name": "Coastal Climate Control",
+      "reference_date": "2025-09-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 2.05,
+          "comment": "Room for growth"
+        },
+        {
+          "grade": "F",
+          "score": 4.76,
+          "comment": "Strong results"
+        }
+      ]
+    },
+    {
+      "id": 166,
+      "uuid": "C381E",
+      "account_id": 5,
+      "account_name": "Coastal Climate Control",
+      "reference_date": "2025-09-01",
+      "report_card_type": "Custom Agency Report Card",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 4.54,
+          "comment": "Meets standards"
+        },
+        {
+          "grade": "B-",
+          "score": 4.66,
+          "comment": "Needs improvement"
+        }
+      ]
+    },
+    {
+      "id": 167,
+      "uuid": "0B86C",
+      "account_id": 6,
+      "account_name": "Mountain View Plumbing",
+      "reference_date": "2025-09-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.25,
+          "comment": "Exceeds expectations"
+        },
+        {
+          "grade": "B",
+          "score": 3.6,
+          "comment": "Strong results"
+        }
+      ]
+    },
+    {
+      "id": 168,
+      "uuid": "B982B",
+      "account_id": 6,
+      "account_name": "Mountain View Plumbing",
+      "reference_date": "2025-09-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "A+",
+          "score": 2.22,
+          "comment": "Exceeds expectations"
+        },
+        {
+          "grade": "A",
+          "score": 1.39,
+          "comment": "Meets standards"
+        }
+      ]
+    },
+    {
+      "id": 169,
+      "uuid": "29BDA",
+      "account_id": 6,
+      "account_name": "Mountain View Plumbing",
+      "reference_date": "2025-09-01",
+      "report_card_type": "Custom Agency Report Card",
+      "sections": [
+        {
+          "grade": "C",
+          "score": 2.48,
+          "comment": "Steady improvement"
+        },
+        {
+          "grade": "C-",
+          "score": 2.68,
+          "comment": "Steady improvement"
+        }
+      ]
+    },
+    {
+      "id": 170,
+      "uuid": "B6C60",
+      "account_id": 7,
+      "account_name": "Valley Heating & Cooling",
+      "reference_date": "2025-09-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "A-",
+          "score": 4.54,
+          "comment": "Impressive gains"
+        },
+        {
+          "grade": "A",
+          "score": 4.33,
+          "comment": "Requires attention"
+        }
+      ]
+    },
+    {
+      "id": 171,
+      "uuid": "D778D",
+      "account_id": 7,
+      "account_name": "Valley Heating & Cooling",
+      "reference_date": "2025-09-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "B",
+          "score": 1.13,
+          "comment": "Solid execution"
+        },
+        {
+          "grade": "B+",
+          "score": 2.77,
+          "comment": "Needs improvement"
+        }
+      ]
+    },
+    {
+      "id": 172,
+      "uuid": "01615",
+      "account_id": 8,
+      "account_name": "Metro Plumbing Experts",
+      "reference_date": "2025-09-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "A",
+          "score": 4.92,
+          "comment": "Solid execution"
+        },
+        {
+          "grade": "C-",
+          "score": 4.61,
+          "comment": "Impressive gains"
+        }
+      ]
+    },
+    {
+      "id": 173,
+      "uuid": "78F33",
+      "account_id": 8,
+      "account_name": "Metro Plumbing Experts",
+      "reference_date": "2025-09-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "C+",
+          "score": 2.1,
+          "comment": "Strong results"
+        },
+        {
+          "grade": "C",
+          "score": 1.37,
+          "comment": "Needs improvement"
+        }
+      ]
+    },
+    {
+      "id": 174,
+      "uuid": "C18B4",
+      "account_id": 9,
+      "account_name": "Elite HVAC Services",
+      "reference_date": "2025-09-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 4.88,
+          "comment": "Excellent performance"
+        },
+        {
+          "grade": "B-",
+          "score": 1.97,
+          "comment": "Good progress"
+        }
+      ]
+    },
+    {
+      "id": 175,
+      "uuid": "06505",
+      "account_id": 9,
+      "account_name": "Elite HVAC Services",
+      "reference_date": "2025-09-01",
+      "report_card_type": "Custom Agency Report Card",
+      "sections": [
+        {
+          "grade": "C-",
+          "score": 1.83,
+          "comment": "Needs improvement"
+        },
+        {
+          "grade": "B+",
+          "score": 2.31,
+          "comment": "Good progress"
+        }
+      ]
+    },
+    {
+      "id": 176,
+      "uuid": "49B8E",
+      "account_id": 10,
+      "account_name": "Precision Pipe & Climate",
+      "reference_date": "2025-09-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 1.01,
+          "comment": "Good progress"
+        },
+        {
+          "grade": "A-",
+          "score": 3.16,
+          "comment": "Good progress"
+        }
+      ]
+    },
+    {
+      "id": 177,
+      "uuid": "EE046",
+      "account_id": 10,
+      "account_name": "Precision Pipe & Climate",
+      "reference_date": "2025-09-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "A+",
+          "score": 1.53,
+          "comment": "Solid execution"
+        },
+        {
+          "grade": "B+",
+          "score": 3.36,
+          "comment": "Excellent performance"
+        }
+      ]
+    },
+    {
+      "id": 178,
+      "uuid": "0A06A",
+      "account_id": 10,
+      "account_name": "Precision Pipe & Climate",
+      "reference_date": "2025-09-01",
+      "report_card_type": "Custom Agency Report Card",
+      "sections": [
+        {
+          "grade": "A+",
+          "score": 1.51,
+          "comment": "Room for growth"
+        },
+        {
+          "grade": "C-",
+          "score": 1.45,
+          "comment": "Strong results"
+        }
+      ]
+    },
+    {
+      "id": 179,
+      "uuid": "99D15",
+      "account_id": 1,
+      "account_name": "Arctic Air HVAC Solutions",
+      "reference_date": "2025-10-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "C",
+          "score": 2.79,
+          "comment": "Solid execution"
+        },
+        {
+          "grade": "C-",
+          "score": 3.37,
+          "comment": "Exceeds expectations"
+        }
+      ]
+    },
+    {
+      "id": 180,
+      "uuid": "782D7",
+      "account_id": 2,
+      "account_name": "Sunshine Plumbing & Heating",
+      "reference_date": "2025-10-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "A+",
+          "score": 3.91,
+          "comment": "Impressive gains"
+        },
+        {
+          "grade": "C-",
+          "score": 2.21,
+          "comment": "Impressive gains"
+        }
+      ]
+    },
+    {
+      "id": 181,
+      "uuid": "5D166",
+      "account_id": 2,
+      "account_name": "Sunshine Plumbing & Heating",
+      "reference_date": "2025-10-01",
+      "report_card_type": "Custom Agency Report Card",
+      "sections": [
+        {
+          "grade": "C",
+          "score": 4.39,
+          "comment": "Room for growth"
+        },
+        {
+          "grade": "F",
+          "score": 1.43,
+          "comment": "Steady improvement"
+        }
+      ]
+    },
+    {
+      "id": 182,
+      "uuid": "DEB40",
+      "account_id": 3,
+      "account_name": "Premier Comfort Systems",
+      "reference_date": "2025-10-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "C",
+          "score": 1.29,
+          "comment": "Strong results"
+        },
+        {
+          "grade": "B-",
+          "score": 3.43,
+          "comment": "Strong results"
+        }
+      ]
+    },
+    {
+      "id": 183,
+      "uuid": "7693E",
+      "account_id": 3,
+      "account_name": "Premier Comfort Systems",
+      "reference_date": "2025-10-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 3.53,
+          "comment": "Meets standards"
+        },
+        {
+          "grade": "B-",
+          "score": 2.52,
+          "comment": "Requires attention"
+        }
+      ]
+    },
+    {
+      "id": 184,
+      "uuid": "01194",
+      "account_id": 4,
+      "account_name": "Blue Ridge Mechanical",
+      "reference_date": "2025-10-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "C",
+          "score": 3.02,
+          "comment": "Room for growth"
+        },
+        {
+          "grade": "A",
+          "score": 4.17,
+          "comment": "Strong results"
+        }
+      ]
+    },
+    {
+      "id": 185,
+      "uuid": "3281F",
+      "account_id": 5,
+      "account_name": "Coastal Climate Control",
+      "reference_date": "2025-10-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "C-",
+          "score": 3.88,
+          "comment": "Needs improvement"
+        },
+        {
+          "grade": "C+",
+          "score": 2.81,
+          "comment": "Needs improvement"
+        }
+      ]
+    },
+    {
+      "id": 186,
+      "uuid": "259B0",
+      "account_id": 5,
+      "account_name": "Coastal Climate Control",
+      "reference_date": "2025-10-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "C",
+          "score": 2.59,
+          "comment": "Steady improvement"
+        },
+        {
+          "grade": "A",
+          "score": 2.25,
+          "comment": "Solid execution"
+        }
+      ]
+    },
+    {
+      "id": 187,
+      "uuid": "0902E",
+      "account_id": 6,
+      "account_name": "Mountain View Plumbing",
+      "reference_date": "2025-10-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "B-",
+          "score": 4.81,
+          "comment": "Impressive gains"
+        },
+        {
+          "grade": "C",
+          "score": 1.27,
+          "comment": "Strong results"
+        }
+      ]
+    },
+    {
+      "id": 188,
+      "uuid": "A1E83",
+      "account_id": 6,
+      "account_name": "Mountain View Plumbing",
+      "reference_date": "2025-10-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "A",
+          "score": 3.98,
+          "comment": "Solid execution"
+        },
+        {
+          "grade": "A-",
+          "score": 3.23,
+          "comment": "Requires attention"
+        }
+      ]
+    },
+    {
+      "id": 189,
+      "uuid": "20ADB",
+      "account_id": 7,
+      "account_name": "Valley Heating & Cooling",
+      "reference_date": "2025-10-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "C-",
+          "score": 2.32,
+          "comment": "Strong results"
+        },
+        {
+          "grade": "C+",
+          "score": 2.41,
+          "comment": "Impressive gains"
+        }
+      ]
+    },
+    {
+      "id": 190,
+      "uuid": "67A54",
+      "account_id": 7,
+      "account_name": "Valley Heating & Cooling",
+      "reference_date": "2025-10-01",
+      "report_card_type": "Custom Agency Report Card",
+      "sections": [
+        {
+          "grade": "A+",
+          "score": 4.87,
+          "comment": "Requires attention"
+        },
+        {
+          "grade": "B",
+          "score": 2.41,
+          "comment": "Requires attention"
+        }
+      ]
+    },
+    {
+      "id": 191,
+      "uuid": "BE931",
+      "account_id": 8,
+      "account_name": "Metro Plumbing Experts",
+      "reference_date": "2025-10-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "C-",
+          "score": 1.85,
+          "comment": "Impressive gains"
+        },
+        {
+          "grade": "C",
+          "score": 1.9,
+          "comment": "Strong results"
+        }
+      ]
+    },
+    {
+      "id": 192,
+      "uuid": "D02D5",
+      "account_id": 8,
+      "account_name": "Metro Plumbing Experts",
+      "reference_date": "2025-10-01",
+      "report_card_type": "QuickBooks Core Report Card",
+      "sections": [
+        {
+          "grade": "C-",
+          "score": 2.47,
+          "comment": "Outstanding work"
+        },
+        {
+          "grade": "D",
+          "score": 1.9,
+          "comment": "Room for growth"
+        }
+      ]
+    },
+    {
+      "id": 193,
+      "uuid": "0543D",
+      "account_id": 9,
+      "account_name": "Elite HVAC Services",
+      "reference_date": "2025-10-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 3.45,
+          "comment": "Impressive gains"
+        },
+        {
+          "grade": "C-",
+          "score": 1.11,
+          "comment": "Impressive gains"
+        }
+      ]
+    },
+    {
+      "id": 194,
+      "uuid": "3151F",
+      "account_id": 9,
+      "account_name": "Elite HVAC Services",
+      "reference_date": "2025-10-01",
+      "report_card_type": "Custom Agency Report Card",
+      "sections": [
+        {
+          "grade": "A-",
+          "score": 2.09,
+          "comment": "Outstanding work"
+        },
+        {
+          "grade": "B-",
+          "score": 2.4,
+          "comment": "Good progress"
+        }
+      ]
+    },
+    {
+      "id": 195,
+      "uuid": "331DD",
+      "account_id": 10,
+      "account_name": "Precision Pipe & Climate",
+      "reference_date": "2025-10-01",
+      "report_card_type": "Funnel Report Card",
+      "sections": [
+        {
+          "grade": "A-",
+          "score": 3.27,
+          "comment": "Room for growth"
+        },
+        {
+          "grade": "A",
+          "score": 1.57,
+          "comment": "Impressive gains"
+        }
+      ]
+    },
+    {
+      "id": 196,
+      "uuid": "CE9D8",
+      "account_id": 10,
+      "account_name": "Precision Pipe & Climate",
+      "reference_date": "2025-10-01",
+      "report_card_type": "Custom Agency Report Card",
+      "sections": [
+        {
+          "grade": "C-",
+          "score": 1.86,
+          "comment": "Room for growth"
+        },
+        {
+          "grade": "C",
+          "score": 2.36,
+          "comment": "Solid execution"
+        }
+      ]
+    }
+  ]
+}
