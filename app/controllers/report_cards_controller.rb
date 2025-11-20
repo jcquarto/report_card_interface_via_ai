@@ -10,6 +10,7 @@ class ReportCardsController < ApplicationController
     @report_card = ReportCard.find(params[:id])
     if @report_card.nil?
       redirect_to report_cards_path, alert: "Report card not found"
+      return
     end
   end
 end
