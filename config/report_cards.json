@@ -31,7 +31,8 @@
       "days_present": 175,
       "days_absent": 5
     },
-    "overall_comments": "Alice is a bright student who consistently demonstrates strong academic performance."
+    "overall_comments": "Alice is a bright student who consistently demonstrates strong academic performance.",
+    "reference_date": "2024-11-15"
   },
   {
     "uuid": "RC002",
@@ -72,7 +73,8 @@
       }
     ],
     "conduct": "Satisfactory",
-    "principal_comments": "Bob is showing steady improvement in all subject areas."
+    "principal_comments": "Bob is showing steady improvement in all subject areas.",
+    "reference_date": "2024-11-15"
   },
   {
     "uuid": "RC003",
@@ -122,14 +124,15 @@
         "letter_grade": "A-",
         "credit": 1.0,
         "honors": false,
-        "teacher": "Señora Garcia"
+        "teacher": "Se\u00f1ora Garcia"
       }
     ],
     "test_scores": {
       "sat": 1420,
       "act": 32
     },
-    "counselor_comments": "Carol is on track for admission to competitive universities."
+    "counselor_comments": "Carol is on track for admission to competitive universities.",
+    "reference_date": "2024-11-15"
   },
   {
     "uuid": "RC004",
@@ -163,7 +166,8 @@
       "days_present": 168,
       "days_absent": 12
     },
-    "overall_comments": "David is a hard-working student who shows improvement each quarter."
+    "overall_comments": "David is a hard-working student who shows improvement each quarter.",
+    "reference_date": "2024-12-15"
   },
   {
     "uuid": "RC005",
@@ -219,6 +223,7 @@
     "test_scores": {
       "psat": 1180
     },
-    "counselor_comments": "Emma has a talent for art and should consider AP Art courses next year."
+    "counselor_comments": "Emma has a talent for art and should consider AP Art courses next year.",
+    "reference_date": "2025-01-15"
   }
 ]

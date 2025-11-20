@@ -1,6 +1,22 @@
 <div class="container">
   <h1>Report Cards</h1>
   
+  <div class="filter-section">
+    <%= form_with url: report_cards_path, method: :get, local: true, class: "filter-form" do |f| %>
+      <div class="filter-group">
+        <%= f.label :reference_date, "Reference Date:" %>
+        <%= f.select :reference_date, 
+                     options_for_select(@available_dates.map { |date| [Date.parse(date).strftime("%B %d, %Y"), date] }, @selected_date),
+                     {}, 
+                     { class: "filter-select", onchange: "this.form.submit();" } %>
+      </div>
+    <% end %>
+    
+    <div class="results-count">
+      Showing <%= @total_count %> <%= "report card".pluralize(@total_count) %>
+    </div>
+  </div>
+  
   <div class="report-cards-list">
     <% @report_cards.each do |report_card| %>
       <div class="report-card-item">

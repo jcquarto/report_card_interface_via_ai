@@ -1,6 +1,9 @@
 class ReportCardsController < ApplicationController
   def index
-    @report_cards = ReportCard.all
+    @available_dates = ReportCard.available_reference_dates
+    @selected_date = params[:reference_date] || ReportCard.default_reference_date
+    @report_cards = ReportCard.filter_by_reference_date(@selected_date)
+    @total_count = @report_cards.count
   end
 
   def show

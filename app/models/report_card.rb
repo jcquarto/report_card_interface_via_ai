@@ -1,11 +1,12 @@
 class ReportCard
-  attr_reader :uuid, :student_name, :report_card_type, :grade_level, :data
+  attr_reader :uuid, :student_name, :report_card_type, :grade_level, :reference_date, :data
 
   def initialize(attributes)
     @uuid = attributes['uuid']
     @student_name = attributes['student_name']
     @report_card_type = attributes['report_card_type']
     @grade_level = attributes['grade_level']
+    @reference_date = attributes['reference_date']
     @data = attributes
   end
 
@@ -15,6 +16,19 @@ class ReportCard
 
   def self.find(uuid)
     all.find { |rc| rc.uuid == uuid }
+  end
+
+  def self.filter_by_reference_date(reference_date)
+    return all if reference_date.blank?
+    all.select { |rc| rc.reference_date == reference_date }
+  end
+
+  def self.available_reference_dates
+    all.map(&:reference_date).uniq.sort.reverse
+  end
+
+  def self.default_reference_date
+    available_reference_dates.first
   end
 
   def self.load_report_cards
