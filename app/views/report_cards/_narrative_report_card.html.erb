@@ -1,0 +1,95 @@
+<div class="narrative-report-card">
+  <h3>Teacher Assessment</h3>
+  
+  <div class="teacher-info">
+    <p><strong>Teacher:</strong> <%= report_card.teacher_name %></p>
+  </div>
+  
+  <div class="narrative-section">
+    <h4>Overall Assessment</h4>
+    <div class="narrative-text">
+      <%= report_card.narrative_assessment %>
+    </div>
+  </div>
+  
+  <div class="strengths-section">
+    <h4>Areas of Strength</h4>
+    <ul>
+      <% report_card.areas_of_strength.each do |strength| %>
+        <li class="strength-item"><%= strength %></li>
+      <% end %>
+    </ul>
+  </div>
+  
+  <div class="growth-section">
+    <h4>Areas for Growth</h4>
+    <ul>
+      <% report_card.areas_for_growth.each do |area| %>
+        <li class="growth-item"><%= area %></li>
+      <% end %>
+    </ul>
+  </div>
+</div>
+
+<style>
+  .narrative-report-card {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .teacher-info {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-left: 4px solid #2196F3;
+  }
+  
+  .narrative-section {
+    margin-bottom: 25px;
+  }
+  
+  .narrative-text {
+    background-color: #fffef7;
+    padding: 15px;
+    border-left: 3px solid #FFC107;
+    line-height: 1.6;
+    font-size: 1.05em;
+  }
+  
+  .strengths-section {
+    margin-bottom: 25px;
+  }
+  
+  .strengths-section h4 {
+    color: #4CAF50;
+  }
+  
+  .strength-item {
+    margin-bottom: 8px;
+    padding: 8px;
+    background-color: #e8f5e9;
+    border-left: 3px solid #4CAF50;
+  }
+  
+  .growth-section h4 {
+    color: #FF9800;
+  }
+  
+  .growth-item {
+    margin-bottom: 8px;
+    padding: 8px;
+    background-color: #fff3e0;
+    border-left: 3px solid #FF9800;
+  }
+  
+  .narrative-report-card ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .narrative-report-card h4 {
+    margin-top: 0;
+  }
+</style>

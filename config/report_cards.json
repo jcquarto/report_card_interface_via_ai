@@ -1,0 +1,144 @@
+[
+  {
+    "uuid": "ABC12",
+    "report_card_type": "standard",
+    "student_name": "John Doe",
+    "grade_level": "5th Grade",
+    "term": "Fall 2023",
+    "month_year": "2024-11",
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "grade": "A",
+        "teacher": "Mrs. Smith",
+        "comments": "Excellent work in algebra and geometry."
+      },
+      {
+        "name": "English",
+        "grade": "B+",
+        "teacher": "Mr. Johnson",
+        "comments": "Good progress in reading comprehension."
+      },
+      {
+        "name": "Science",
+        "grade": "A-",
+        "teacher": "Dr. Williams",
+        "comments": "Shows strong interest in experiments."
+      }
+    ]
+  },
+  {
+    "uuid": "XYZ89",
+    "report_card_type": "narrative",
+    "student_name": "Jane Smith",
+    "grade_level": "3rd Grade",
+    "term": "Spring 2023",
+    "month_year": "2023-05",
+    "narrative_assessment": "Jane has shown remarkable growth this term. She demonstrates strong creative thinking skills and collaborates well with peers. Her reading has improved significantly, and she now reads above grade level. She particularly enjoys science projects and shows curiosity about the natural world.",
+    "teacher_name": "Ms. Anderson",
+    "areas_of_strength": [
+      "Creative writing",
+      "Mathematics problem-solving",
+      "Collaboration with peers"
+    ],
+    "areas_for_growth": [
+      "Time management during independent work",
+      "Speaking up in class discussions"
+    ]
+  },
+  {
+    "uuid": "LMN45",
+    "report_card_type": "standards_based",
+    "student_name": "Michael Johnson",
+    "grade_level": "4th Grade",
+    "term": "Winter 2023",
+    "month_year": "2025-02",
+    "standards": [
+      {
+        "category": "Reading",
+        "standards": [
+          {
+            "code": "RL.4.1",
+            "description": "Refer to details and examples in a text",
+            "proficiency": "Proficient"
+          },
+          {
+            "code": "RL.4.2",
+            "description": "Determine theme of a story",
+            "proficiency": "Advanced"
+          }
+        ]
+      },
+      {
+        "category": "Mathematics",
+        "standards": [
+          {
+            "code": "4.NBT.A.1",
+            "description": "Recognize place value",
+            "proficiency": "Proficient"
+          },
+          {
+            "code": "4.NBT.B.4",
+            "description": "Add and subtract multi-digit numbers",
+            "proficiency": "Developing"
+          }
+        ]
+      }
+    ],
+    "teacher_name": "Mr. Davis"
+  },
+  {
+    "uuid": "QRS67",
+    "report_card_type": "standard",
+    "student_name": "Emily Brown",
+    "grade_level": "6th Grade",
+    "term": "Fall 2023",
+    "month_year": "2024-11",
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "grade": "B",
+        "teacher": "Ms. Rodriguez",
+        "comments": "Needs to show more work on assignments."
+      },
+      {
+        "name": "English",
+        "grade": "A",
+        "teacher": "Mrs. Thompson",
+        "comments": "Exceptional writing skills and vocabulary."
+      },
+      {
+        "name": "History",
+        "grade": "B+",
+        "teacher": "Mr. Lee",
+        "comments": "Great participation in class discussions."
+      },
+      {
+        "name": "Physical Education",
+        "grade": "A",
+        "teacher": "Coach Miller",
+        "comments": "Shows excellent sportsmanship and teamwork."
+      }
+    ]
+  },
+  {
+    "uuid": "TUV34",
+    "report_card_type": "narrative",
+    "student_name": "David Wilson",
+    "grade_level": "2nd Grade",
+    "term": "Spring 2023",
+    "month_year": "2023-05",
+    "narrative_assessment": "David is a conscientious student who takes pride in his work. He has made significant progress in reading fluency this term and is now reading at grade level. David works well independently and follows directions carefully. He is kind to his classmates and is a positive presence in the classroom.",
+    "teacher_name": "Mrs. Martinez",
+    "areas_of_strength": [
+      "Following directions",
+      "Reading fluency",
+      "Mathematical reasoning",
+      "Kind and respectful behavior"
+    ],
+    "areas_for_growth": [
+      "Confidence in sharing answers aloud",
+      "Handwriting neatness"
+    ]
+  }
+]
