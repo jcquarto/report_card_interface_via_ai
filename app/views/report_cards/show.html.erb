@@ -1,0 +1,64 @@
+<div class="report-card-show">
+  <div class="header">
+    <h1>Report Card</h1>
+    <%= link_to "← Back to All Report Cards", report_cards_path, class: "back-link" %>
+  </div>
+
+  <div class="student-info">
+    <h2><%= @report_card.student_name %></h2>
+    <p><strong>Grade Level:</strong> <%= @report_card.grade_level %></p>
+    <p><strong>Term:</strong> <%= @report_card.term %></p>
+    <% if @report_card.reference_date %>
+      <p><strong>Reference Date:</strong> 
+        <% begin %>
+          <%= Date.parse(@report_card.reference_date).strftime('%B %d, %Y') %>
+        <% rescue ArgumentError, TypeError %>
+          <%= @report_card.reference_date %>
+        <% end %>
+      </p>
+    <% end %>
+    <p><strong>Report Card ID:</strong> <%= @report_card.uuid %></p>
+  </div>
+
+  <% if @report_card.standard? %>
+    <%= render partial: "standard_report_card", locals: { report_card: @report_card } %>
+  <% elsif @report_card.narrative? %>
+    <%= render partial: "narrative_report_card", locals: { report_card: @report_card } %>
+  <% elsif @report_card.standards_based? %>
+    <%= render partial: "standards_based_report_card", locals: { report_card: @report_card } %>
+  <% end %>
+</div>
+
+<style>
+  .report-card-show {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  .header {
+    margin-bottom: 30px;
+  }
+  
+  .back-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  .back-link:hover {
+    text-decoration: underline;
+  }
+  
+  .student-info {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+  }
+  
+  .student-info h2 {
+    margin-top: 0;
+  }
+</style>

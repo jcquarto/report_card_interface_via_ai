@@ -1,0 +1,72 @@
+<div class="standard-report-card">
+  <h3>Subject Grades</h3>
+  
+  <table class="grades-table">
+    <thead>
+      <tr>
+        <th>Subject</th>
+        <th>Teacher</th>
+        <th>Grade</th>
+        <th>Comments</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% report_card.subjects.each do |subject| %>
+        <tr>
+          <td><strong><%= subject["name"] %></strong></td>
+          <td><%= subject["teacher"] %></td>
+          <td class="grade" style="background-color: <%= score_background_color(subject["score"]) %>; color: <%= score_text_color(subject["score"]) %>;">
+            <%= subject["grade"] %>
+            <% if subject["score"] %>
+              <span class="score-value">(<%= subject["score"] %>)</span>
+            <% end %>
+          </td>
+          <td><%= subject["comments"] %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>
+
+<style>
+  .standard-report-card {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .grades-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  
+  .grades-table th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .grades-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .grades-table tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .grades-table .grade {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 12px;
+    text-align: center;
+  }
+
+  .grades-table .score-value {
+    font-size: 0.9em;
+    margin-left: 5px;
+  }
+</style>
