@@ -42,6 +42,13 @@ python app.py
 
 The application will be available at `http://127.0.0.1:5000`
 
+For development with debug mode enabled (not recommended for production):
+```bash
+FLASK_DEBUG=true python app.py
+```
+
+**Security Note**: Debug mode should never be enabled in production as it can allow attackers to execute arbitrary code.
+
 ### Running Tests
 
 Run all tests with pytest:

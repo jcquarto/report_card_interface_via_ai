@@ -1,3 +1,4 @@
+import os
 from flask import Flask, render_template, abort
 from models import ReportCardRepository, ReportCardType
 
@@ -28,4 +29,6 @@ def not_found(error):
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    # Only enable debug mode if explicitly set via environment variable
+    debug_mode = os.environ.get('FLASK_DEBUG', 'False').lower() == 'true'
+    app.run(debug=debug_mode)
