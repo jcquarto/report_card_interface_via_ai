@@ -2,12 +2,13 @@
   <h1>Report Cards</h1>
   
   <div class="sort-controls">
-    <label for="sort-select">Sort by:</label>
-    <select id="sort-select" onchange="window.location.href='?sort_by=' + this.value">
-      <option value="default" <%= 'selected' if @sort_by == 'default' %>>Account Name</option>
-      <option value="by_date" <%= 'selected' if @sort_by == 'by_date' %>>Reference Date</option>
-      <option value="by_type" <%= 'selected' if @sort_by == 'by_type' %>>Report Card Type</option>
-    </select>
+    <%= form_with url: report_cards_path, method: :get, local: true do |f| %>
+      <%= f.label :sort_by, "Sort by:" %>
+      <%= f.select :sort_by, 
+                   [["Account Name", "default"], ["Reference Date", "by_date"], ["Report Card Type", "by_type"]], 
+                   { selected: @sort_by },
+                   { onchange: "this.form.submit();" } %>
+    <% end %>
   </div>
   
   <div class="report-cards-list">
@@ -18,9 +19,6 @@
         </div>
         <div class="card-header">
           <h2><%= report_card.student_name %></h2>
-          <span class="badge <%= report_card.report_card_type %>">
-            <%= report_card.report_card_type.humanize %>
-          </span>
         </div>
         <div class="card-body">
           <p><strong>Account:</strong> <%= report_card.account_name %></p>
