@@ -1,0 +1,3542 @@
+{
+  "accounts": [
+    {
+      "id": "ACC001",
+      "name": "AirFlow Masters HVAC"
+    },
+    {
+      "id": "ACC002",
+      "name": "Premier Plumbing Solutions"
+    },
+    {
+      "id": "ACC003",
+      "name": "CoolTech Air Conditioning"
+    },
+    {
+      "id": "ACC004",
+      "name": "DrainPro Plumbing & Heating"
+    },
+    {
+      "id": "ACC005",
+      "name": "Climate Control Experts"
+    },
+    {
+      "id": "ACC006",
+      "name": "RapidFix Plumbing Services"
+    },
+    {
+      "id": "ACC007",
+      "name": "HeatWave HVAC Contractors"
+    },
+    {
+      "id": "ACC008",
+      "name": "PipeDream Plumbing Co"
+    },
+    {
+      "id": "ACC009",
+      "name": "FrostBite Cooling Systems"
+    },
+    {
+      "id": "ACC010",
+      "name": "AquaFlow Plumbing & HVAC"
+    }
+  ],
+  "report_cards": [
+    {
+      "uuid": "PWJJ4",
+      "id": 8978,
+      "account_id": "ACC001",
+      "reference_date": "2025-01-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "A+",
+          "score": 4.66,
+          "comment": "Meeting expectations consistently"
+        },
+        {
+          "grade": "A",
+          "score": 4.39,
+          "comment": "Room for improvement"
+        }
+      ]
+    },
+    {
+      "uuid": "34HVS",
+      "id": 6408,
+      "account_id": "ACC001",
+      "reference_date": "2025-02-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "B",
+          "score": 3.83,
+          "comment": "Area requires focus"
+        },
+        {
+          "grade": "D",
+          "score": 2.87,
+          "comment": "Good progress overall"
+        }
+      ]
+    },
+    {
+      "uuid": "RI5NQ",
+      "id": 1979,
+      "account_id": "ACC001",
+      "reference_date": "2025-03-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.44,
+          "comment": "Needs some attention"
+        },
+        {
+          "grade": "B",
+          "score": 3.66,
+          "comment": "Excellent performance this period"
+        }
+      ]
+    },
+    {
+      "uuid": "AMO37",
+      "id": 6186,
+      "account_id": "ACC001",
+      "reference_date": "2025-03-01",
+      "type": "Custom Agency",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.83,
+          "comment": "Good progress overall"
+        },
+        {
+          "grade": "A",
+          "score": 4.04,
+          "comment": "On track for goals"
+        }
+      ]
+    },
+    {
+      "uuid": "RFZ16",
+      "id": 9304,
+      "account_id": "ACC001",
+      "reference_date": "2025-04-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "C",
+          "score": 3.25,
+          "comment": "On track for goals"
+        },
+        {
+          "grade": "A",
+          "score": 4.31,
+          "comment": "Good progress overall"
+        }
+      ]
+    },
+    {
+      "uuid": "4OXQ7",
+      "id": 6167,
+      "account_id": "ACC001",
+      "reference_date": "2025-04-01",
+      "type": "Custom Agency",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.3,
+          "comment": "Room for improvement"
+        },
+        {
+          "grade": "D",
+          "score": 2.64,
+          "comment": "Meeting expectations consistently"
+        }
+      ]
+    },
+    {
+      "uuid": "VMKJX",
+      "id": 4207,
+      "account_id": "ACC001",
+      "reference_date": "2025-05-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.03,
+          "comment": "Good progress overall"
+        },
+        {
+          "grade": "F",
+          "score": 1.24,
+          "comment": "Meeting expectations consistently"
+        }
+      ]
+    },
+    {
+      "uuid": "1G5KN",
+      "id": 3691,
+      "account_id": "ACC001",
+      "reference_date": "2025-05-01",
+      "type": "QuickBooks Core",
+      "sections": [
+        {
+          "grade": "A+",
+          "score": 4.79,
+          "comment": "Good progress overall"
+        },
+        {
+          "grade": "A",
+          "score": 4.45,
+          "comment": "Exceeding targets"
+        }
+      ]
+    },
+    {
+      "uuid": "BE7K9",
+      "id": 9560,
+      "account_id": "ACC001",
+      "reference_date": "2025-06-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.15,
+          "comment": "Meeting expectations consistently"
+        },
+        {
+          "grade": "F",
+          "score": 1.58,
+          "comment": "Good progress overall"
+        }
+      ]
+    },
+    {
+      "uuid": "KRHTH",
+      "id": 5367,
+      "account_id": "ACC001",
+      "reference_date": "2025-06-01",
+      "type": "Custom Agency",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.31,
+          "comment": "Area requires focus"
+        },
+        {
+          "grade": "D",
+          "score": 2.74,
+          "comment": "On track for goals"
+        }
+      ]
+    },
+    {
+      "uuid": "E2JIZ",
+      "id": 1037,
+      "account_id": "ACC001",
+      "reference_date": "2025-07-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.62,
+          "comment": "Exceeding targets"
+        },
+        {
+          "grade": "F",
+          "score": 1.52,
+          "comment": "Showing steady improvement"
+        }
+      ]
+    },
+    {
+      "uuid": "Q7OUD",
+      "id": 5653,
+      "account_id": "ACC001",
+      "reference_date": "2025-07-01",
+      "type": "Custom Agency",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.04,
+          "comment": "Exceeding targets"
+        },
+        {
+          "grade": "B",
+          "score": 3.91,
+          "comment": "Meeting expectations consistently"
+        }
+      ]
+    },
+    {
+      "uuid": "PKV4J",
+      "id": 5234,
+      "account_id": "ACC001",
+      "reference_date": "2025-08-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.43,
+          "comment": "Outstanding results achieved"
+        },
+        {
+          "grade": "F",
+          "score": 1.28,
+          "comment": "Room for improvement"
+        }
+      ]
+    },
+    {
+      "uuid": "OM1DB",
+      "id": 2468,
+      "account_id": "ACC001",
+      "reference_date": "2025-08-01",
+      "type": "Custom Agency",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.95,
+          "comment": "Needs some attention"
+        },
+        {
+          "grade": "B",
+          "score": 3.57,
+          "comment": "Area requires focus"
+        }
+      ]
+    },
+    {
+      "uuid": "BRVH6",
+      "id": 6054,
+      "account_id": "ACC001",
+      "reference_date": "2025-09-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "B",
+          "score": 3.6,
+          "comment": "Room for improvement"
+        },
+        {
+          "grade": "D",
+          "score": 2.77,
+          "comment": "Exceeding targets"
+        }
+      ]
+    },
+    {
+      "uuid": "27587",
+      "id": 1187,
+      "account_id": "ACC001",
+      "reference_date": "2025-09-01",
+      "type": "QuickBooks Core",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.86,
+          "comment": "Showing steady improvement"
+        },
+        {
+          "grade": "D",
+          "score": 2.59,
+          "comment": "Meeting expectations consistently"
+        }
+      ]
+    },
+    {
+      "uuid": "YURS2",
+      "id": 9439,
+      "account_id": "ACC001",
+      "reference_date": "2025-10-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "A+",
+          "score": 4.62,
+          "comment": "Excellent performance this period"
+        },
+        {
+          "grade": "B",
+          "score": 3.69,
+          "comment": "Excellent performance this period"
+        }
+      ]
+    },
+    {
+      "uuid": "YY1NT",
+      "id": 1454,
+      "account_id": "ACC001",
+      "reference_date": "2025-10-01",
+      "type": "Custom Agency",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.0,
+          "comment": "Area requires focus"
+        },
+        {
+          "grade": "F",
+          "score": 1.21,
+          "comment": "Excellent performance this period"
+        }
+      ]
+    },
+    {
+      "uuid": "DAIUC",
+      "id": 8183,
+      "account_id": "ACC002",
+      "reference_date": "2025-01-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.76,
+          "comment": "Outstanding results achieved"
+        },
+        {
+          "grade": "C",
+          "score": 3.2,
+          "comment": "Outstanding results achieved"
+        }
+      ]
+    },
+    {
+      "uuid": "TUM0B",
+      "id": 3743,
+      "account_id": "ACC002",
+      "reference_date": "2025-01-01",
+      "type": "QuickBooks Core",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.25,
+          "comment": "On track for goals"
+        },
+        {
+          "grade": "B",
+          "score": 3.6,
+          "comment": "Exceeding targets"
+        }
+      ]
+    },
+    {
+      "uuid": "9PHDY",
+      "id": 8154,
+      "account_id": "ACC002",
+      "reference_date": "2025-02-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "B",
+          "score": 3.68,
+          "comment": "Excellent performance this period"
+        },
+        {
+          "grade": "F",
+          "score": 1.25,
+          "comment": "Room for improvement"
+        }
+      ]
+    },
+    {
+      "uuid": "SY1ZK",
+      "id": 5332,
+      "account_id": "ACC002",
+      "reference_date": "2025-03-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.1,
+          "comment": "Good progress overall"
+        },
+        {
+          "grade": "A+",
+          "score": 4.96,
+          "comment": "Room for improvement"
+        }
+      ]
+    },
+    {
+      "uuid": "FX1DJ",
+      "id": 5598,
+      "account_id": "ACC002",
+      "reference_date": "2025-04-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "C",
+          "score": 3.13,
+          "comment": "Needs some attention"
+        },
+        {
+          "grade": "F",
+          "score": 1.91,
+          "comment": "Outstanding results achieved"
+        }
+      ]
+    },
+    {
+      "uuid": "M752Y",
+      "id": 7684,
+      "account_id": "ACC002",
+      "reference_date": "2025-04-01",
+      "type": "Custom Agency",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.38,
+          "comment": "Room for improvement"
+        },
+        {
+          "grade": "F",
+          "score": 1.68,
+          "comment": "Outstanding results achieved"
+        }
+      ]
+    },
+    {
+      "uuid": "JXNUH",
+      "id": 6456,
+      "account_id": "ACC002",
+      "reference_date": "2025-05-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "C",
+          "score": 3.31,
+          "comment": "Meeting expectations consistently"
+        },
+        {
+          "grade": "B",
+          "score": 3.73,
+          "comment": "Needs some attention"
+        }
+      ]
+    },
+    {
+      "uuid": "GRGQC",
+      "id": 2403,
+      "account_id": "ACC002",
+      "reference_date": "2025-06-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.73,
+          "comment": "Needs some attention"
+        },
+        {
+          "grade": "C",
+          "score": 3.21,
+          "comment": "Excellent performance this period"
+        }
+      ]
+    },
+    {
+      "uuid": "AX0CF",
+      "id": 7011,
+      "account_id": "ACC002",
+      "reference_date": "2025-07-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "A+",
+          "score": 4.66,
+          "comment": "On track for goals"
+        },
+        {
+          "grade": "F",
+          "score": 1.0,
+          "comment": "Good progress overall"
+        }
+      ]
+    },
+    {
+      "uuid": "9DNGK",
+      "id": 2378,
+      "account_id": "ACC002",
+      "reference_date": "2025-07-01",
+      "type": "QuickBooks Core",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.68,
+          "comment": "Room for improvement"
+        },
+        {
+          "grade": "F",
+          "score": 1.89,
+          "comment": "Excellent performance this period"
+        }
+      ]
+    },
+    {
+      "uuid": "4PE3Q",
+      "id": 1838,
+      "account_id": "ACC002",
+      "reference_date": "2025-08-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.09,
+          "comment": "Area requires focus"
+        },
+        {
+          "grade": "F",
+          "score": 1.27,
+          "comment": "Meeting expectations consistently"
+        }
+      ]
+    },
+    {
+      "uuid": "Z0W39",
+      "id": 7516,
+      "account_id": "ACC002",
+      "reference_date": "2025-08-01",
+      "type": "QuickBooks Core",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.72,
+          "comment": "Area requires focus"
+        },
+        {
+          "grade": "F",
+          "score": 1.35,
+          "comment": "Area requires focus"
+        }
+      ]
+    },
+    {
+      "uuid": "08AAH",
+      "id": 7842,
+      "account_id": "ACC002",
+      "reference_date": "2025-09-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.83,
+          "comment": "Outstanding results achieved"
+        },
+        {
+          "grade": "F",
+          "score": 1.13,
+          "comment": "Outstanding results achieved"
+        }
+      ]
+    },
+    {
+      "uuid": "AGYDK",
+      "id": 3409,
+      "account_id": "ACC002",
+      "reference_date": "2025-09-01",
+      "type": "QuickBooks Core",
+      "sections": [
+        {
+          "grade": "B",
+          "score": 3.76,
+          "comment": "Area requires focus"
+        },
+        {
+          "grade": "B",
+          "score": 3.61,
+          "comment": "Needs some attention"
+        }
+      ]
+    },
+    {
+      "uuid": "F14EK",
+      "id": 7420,
+      "account_id": "ACC002",
+      "reference_date": "2025-09-01",
+      "type": "Custom Agency",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.02,
+          "comment": "On track for goals"
+        },
+        {
+          "grade": "A+",
+          "score": 4.99,
+          "comment": "Outstanding results achieved"
+        }
+      ]
+    },
+    {
+      "uuid": "94GNH",
+      "id": 2448,
+      "account_id": "ACC002",
+      "reference_date": "2025-10-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "A",
+          "score": 4.36,
+          "comment": "Excellent performance this period"
+        },
+        {
+          "grade": "D",
+          "score": 2.17,
+          "comment": "Meeting expectations consistently"
+        }
+      ]
+    },
+    {
+      "uuid": "XRFTB",
+      "id": 6522,
+      "account_id": "ACC002",
+      "reference_date": "2025-10-01",
+      "type": "Custom Agency",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.74,
+          "comment": "Room for improvement"
+        },
+        {
+          "grade": "A+",
+          "score": 4.69,
+          "comment": "Good progress overall"
+        }
+      ]
+    },
+    {
+      "uuid": "ERPHX",
+      "id": 3475,
+      "account_id": "ACC003",
+      "reference_date": "2025-01-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.3,
+          "comment": "Excellent performance this period"
+        },
+        {
+          "grade": "D",
+          "score": 2.95,
+          "comment": "Area requires focus"
+        }
+      ]
+    },
+    {
+      "uuid": "SAEGK",
+      "id": 6626,
+      "account_id": "ACC003",
+      "reference_date": "2025-01-01",
+      "type": "Custom Agency",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.17,
+          "comment": "Excellent performance this period"
+        },
+        {
+          "grade": "D",
+          "score": 2.82,
+          "comment": "On track for goals"
+        }
+      ]
+    },
+    {
+      "uuid": "8RVOI",
+      "id": 7085,
+      "account_id": "ACC003",
+      "reference_date": "2025-02-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "C",
+          "score": 3.31,
+          "comment": "Good progress overall"
+        },
+        {
+          "grade": "F",
+          "score": 1.39,
+          "comment": "On track for goals"
+        }
+      ]
+    },
+    {
+      "uuid": "14UX5",
+      "id": 1798,
+      "account_id": "ACC003",
+      "reference_date": "2025-02-01",
+      "type": "QuickBooks Core",
+      "sections": [
+        {
+          "grade": "B",
+          "score": 3.71,
+          "comment": "Showing steady improvement"
+        },
+        {
+          "grade": "B",
+          "score": 3.64,
+          "comment": "Needs some attention"
+        }
+      ]
+    },
+    {
+      "uuid": "I17IK",
+      "id": 4291,
+      "account_id": "ACC003",
+      "reference_date": "2025-02-01",
+      "type": "Custom Agency",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.13,
+          "comment": "Room for improvement"
+        },
+        {
+          "grade": "D",
+          "score": 2.63,
+          "comment": "Excellent performance this period"
+        }
+      ]
+    },
+    {
+      "uuid": "01Q17",
+      "id": 8887,
+      "account_id": "ACC003",
+      "reference_date": "2025-03-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "A",
+          "score": 4.04,
+          "comment": "On track for goals"
+        },
+        {
+          "grade": "F",
+          "score": 1.37,
+          "comment": "On track for goals"
+        }
+      ]
+    },
+    {
+      "uuid": "YQUOT",
+      "id": 7002,
+      "account_id": "ACC003",
+      "reference_date": "2025-04-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.62,
+          "comment": "Needs some attention"
+        },
+        {
+          "grade": "C",
+          "score": 3.42,
+          "comment": "Needs some attention"
+        }
+      ]
+    },
+    {
+      "uuid": "35T7W",
+      "id": 5460,
+      "account_id": "ACC003",
+      "reference_date": "2025-04-01",
+      "type": "QuickBooks Core",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.22,
+          "comment": "Showing steady improvement"
+        },
+        {
+          "grade": "F",
+          "score": 1.46,
+          "comment": "Meeting expectations consistently"
+        }
+      ]
+    },
+    {
+      "uuid": "MG8CY",
+      "id": 7316,
+      "account_id": "ACC003",
+      "reference_date": "2025-05-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.28,
+          "comment": "Showing steady improvement"
+        },
+        {
+          "grade": "D",
+          "score": 2.11,
+          "comment": "Excellent performance this period"
+        }
+      ]
+    },
+    {
+      "uuid": "BZAI0",
+      "id": 1446,
+      "account_id": "ACC003",
+      "reference_date": "2025-05-01",
+      "type": "QuickBooks Core",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.46,
+          "comment": "Showing steady improvement"
+        },
+        {
+          "grade": "C",
+          "score": 3.04,
+          "comment": "Exceeding targets"
+        }
+      ]
+    },
+    {
+      "uuid": "B607Y",
+      "id": 6176,
+      "account_id": "ACC003",
+      "reference_date": "2025-06-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "A+",
+          "score": 4.6,
+          "comment": "Room for improvement"
+        },
+        {
+          "grade": "A+",
+          "score": 4.99,
+          "comment": "Exceeding targets"
+        }
+      ]
+    },
+    {
+      "uuid": "6C02M",
+      "id": 1054,
+      "account_id": "ACC003",
+      "reference_date": "2025-06-01",
+      "type": "QuickBooks Core",
+      "sections": [
+        {
+          "grade": "A+",
+          "score": 4.72,
+          "comment": "Outstanding results achieved"
+        },
+        {
+          "grade": "B",
+          "score": 3.53,
+          "comment": "Showing steady improvement"
+        }
+      ]
+    },
+    {
+      "uuid": "XV9D2",
+      "id": 7795,
+      "account_id": "ACC003",
+      "reference_date": "2025-07-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "A",
+          "score": 4.29,
+          "comment": "Excellent performance this period"
+        },
+        {
+          "grade": "B",
+          "score": 3.84,
+          "comment": "Outstanding results achieved"
+        }
+      ]
+    },
+    {
+      "uuid": "PS1JQ",
+      "id": 1595,
+      "account_id": "ACC003",
+      "reference_date": "2025-07-01",
+      "type": "Custom Agency",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.88,
+          "comment": "Outstanding results achieved"
+        },
+        {
+          "grade": "D",
+          "score": 2.56,
+          "comment": "Meeting expectations consistently"
+        }
+      ]
+    },
+    {
+      "uuid": "ZCK7B",
+      "id": 6469,
+      "account_id": "ACC003",
+      "reference_date": "2025-08-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.88,
+          "comment": "Room for improvement"
+        },
+        {
+          "grade": "D",
+          "score": 2.15,
+          "comment": "Needs some attention"
+        }
+      ]
+    },
+    {
+      "uuid": "2W258",
+      "id": 5704,
+      "account_id": "ACC003",
+      "reference_date": "2025-08-01",
+      "type": "QuickBooks Core",
+      "sections": [
+        {
+          "grade": "B",
+          "score": 3.92,
+          "comment": "Exceeding targets"
+        },
+        {
+          "grade": "B",
+          "score": 3.93,
+          "comment": "Exceeding targets"
+        }
+      ]
+    },
+    {
+      "uuid": "FIGZT",
+      "id": 3747,
+      "account_id": "ACC003",
+      "reference_date": "2025-09-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "A",
+          "score": 4.4,
+          "comment": "Room for improvement"
+        },
+        {
+          "grade": "D",
+          "score": 2.23,
+          "comment": "Good progress overall"
+        }
+      ]
+    },
+    {
+      "uuid": "XMMYL",
+      "id": 5345,
+      "account_id": "ACC003",
+      "reference_date": "2025-10-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.98,
+          "comment": "Exceeding targets"
+        },
+        {
+          "grade": "D",
+          "score": 2.82,
+          "comment": "Outstanding results achieved"
+        }
+      ]
+    },
+    {
+      "uuid": "R6K7C",
+      "id": 6186,
+      "account_id": "ACC003",
+      "reference_date": "2025-10-01",
+      "type": "Custom Agency",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.49,
+          "comment": "Outstanding results achieved"
+        },
+        {
+          "grade": "D",
+          "score": 2.33,
+          "comment": "Area requires focus"
+        }
+      ]
+    },
+    {
+      "uuid": "58CK9",
+      "id": 7031,
+      "account_id": "ACC004",
+      "reference_date": "2025-01-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "A+",
+          "score": 4.82,
+          "comment": "Outstanding results achieved"
+        },
+        {
+          "grade": "D",
+          "score": 2.1,
+          "comment": "On track for goals"
+        }
+      ]
+    },
+    {
+      "uuid": "DI8V3",
+      "id": 4038,
+      "account_id": "ACC004",
+      "reference_date": "2025-01-01",
+      "type": "QuickBooks Core",
+      "sections": [
+        {
+          "grade": "C",
+          "score": 3.49,
+          "comment": "Outstanding results achieved"
+        },
+        {
+          "grade": "F",
+          "score": 1.74,
+          "comment": "Good progress overall"
+        }
+      ]
+    },
+    {
+      "uuid": "OJ0F4",
+      "id": 9246,
+      "account_id": "ACC004",
+      "reference_date": "2025-02-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.95,
+          "comment": "On track for goals"
+        },
+        {
+          "grade": "B",
+          "score": 3.64,
+          "comment": "Exceeding targets"
+        }
+      ]
+    },
+    {
+      "uuid": "6C046",
+      "id": 9036,
+      "account_id": "ACC004",
+      "reference_date": "2025-02-01",
+      "type": "QuickBooks Core",
+      "sections": [
+        {
+          "grade": "A+",
+          "score": 4.9,
+          "comment": "On track for goals"
+        },
+        {
+          "grade": "C",
+          "score": 3.23,
+          "comment": "On track for goals"
+        }
+      ]
+    },
+    {
+      "uuid": "76N6F",
+      "id": 9717,
+      "account_id": "ACC004",
+      "reference_date": "2025-03-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.73,
+          "comment": "Needs some attention"
+        },
+        {
+          "grade": "A+",
+          "score": 4.56,
+          "comment": "Exceeding targets"
+        }
+      ]
+    },
+    {
+      "uuid": "CD3WZ",
+      "id": 4425,
+      "account_id": "ACC004",
+      "reference_date": "2025-03-01",
+      "type": "Custom Agency",
+      "sections": [
+        {
+          "grade": "A",
+          "score": 4.37,
+          "comment": "Meeting expectations consistently"
+        },
+        {
+          "grade": "D",
+          "score": 2.83,
+          "comment": "Showing steady improvement"
+        }
+      ]
+    },
+    {
+      "uuid": "MKYHO",
+      "id": 3122,
+      "account_id": "ACC004",
+      "reference_date": "2025-04-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "B",
+          "score": 3.94,
+          "comment": "Room for improvement"
+        },
+        {
+          "grade": "B",
+          "score": 3.62,
+          "comment": "Good progress overall"
+        }
+      ]
+    },
+    {
+      "uuid": "JBG8Q",
+      "id": 1708,
+      "account_id": "ACC004",
+      "reference_date": "2025-05-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.48,
+          "comment": "Meeting expectations consistently"
+        },
+        {
+          "grade": "F",
+          "score": 1.78,
+          "comment": "Needs some attention"
+        }
+      ]
+    },
+    {
+      "uuid": "BR9XT",
+      "id": 3942,
+      "account_id": "ACC004",
+      "reference_date": "2025-05-01",
+      "type": "Custom Agency",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.5,
+          "comment": "Needs some attention"
+        },
+        {
+          "grade": "C",
+          "score": 3.35,
+          "comment": "Needs some attention"
+        }
+      ]
+    },
+    {
+      "uuid": "3LA8N",
+      "id": 1619,
+      "account_id": "ACC004",
+      "reference_date": "2025-06-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "C",
+          "score": 3.24,
+          "comment": "On track for goals"
+        },
+        {
+          "grade": "F",
+          "score": 1.62,
+          "comment": "Exceeding targets"
+        }
+      ]
+    },
+    {
+      "uuid": "A0WGE",
+      "id": 5133,
+      "account_id": "ACC004",
+      "reference_date": "2025-07-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "A+",
+          "score": 4.54,
+          "comment": "Excellent performance this period"
+        },
+        {
+          "grade": "A",
+          "score": 4.21,
+          "comment": "Room for improvement"
+        }
+      ]
+    },
+    {
+      "uuid": "5COQC",
+      "id": 8711,
+      "account_id": "ACC004",
+      "reference_date": "2025-08-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.05,
+          "comment": "Exceeding targets"
+        },
+        {
+          "grade": "F",
+          "score": 1.2,
+          "comment": "Meeting expectations consistently"
+        }
+      ]
+    },
+    {
+      "uuid": "D4OLI",
+      "id": 2836,
+      "account_id": "ACC004",
+      "reference_date": "2025-08-01",
+      "type": "QuickBooks Core",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.07,
+          "comment": "Meeting expectations consistently"
+        },
+        {
+          "grade": "C",
+          "score": 3.11,
+          "comment": "Excellent performance this period"
+        }
+      ]
+    },
+    {
+      "uuid": "CSWZF",
+      "id": 2581,
+      "account_id": "ACC004",
+      "reference_date": "2025-09-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "A+",
+          "score": 4.61,
+          "comment": "Meeting expectations consistently"
+        },
+        {
+          "grade": "B",
+          "score": 3.86,
+          "comment": "Needs some attention"
+        }
+      ]
+    },
+    {
+      "uuid": "81YP5",
+      "id": 7840,
+      "account_id": "ACC004",
+      "reference_date": "2025-09-01",
+      "type": "QuickBooks Core",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.98,
+          "comment": "Showing steady improvement"
+        },
+        {
+          "grade": "A+",
+          "score": 4.52,
+          "comment": "Outstanding results achieved"
+        }
+      ]
+    },
+    {
+      "uuid": "F8TP1",
+      "id": 2426,
+      "account_id": "ACC004",
+      "reference_date": "2025-10-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.9,
+          "comment": "Room for improvement"
+        },
+        {
+          "grade": "F",
+          "score": 1.86,
+          "comment": "Good progress overall"
+        }
+      ]
+    },
+    {
+      "uuid": "Z2LQS",
+      "id": 4068,
+      "account_id": "ACC005",
+      "reference_date": "2025-01-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.77,
+          "comment": "Outstanding results achieved"
+        },
+        {
+          "grade": "A+",
+          "score": 4.51,
+          "comment": "Meeting expectations consistently"
+        }
+      ]
+    },
+    {
+      "uuid": "JI089",
+      "id": 6285,
+      "account_id": "ACC005",
+      "reference_date": "2025-02-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.84,
+          "comment": "Meeting expectations consistently"
+        },
+        {
+          "grade": "A",
+          "score": 4.12,
+          "comment": "Needs some attention"
+        }
+      ]
+    },
+    {
+      "uuid": "GH5Y2",
+      "id": 5070,
+      "account_id": "ACC005",
+      "reference_date": "2025-03-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.27,
+          "comment": "Exceeding targets"
+        },
+        {
+          "grade": "F",
+          "score": 1.36,
+          "comment": "On track for goals"
+        }
+      ]
+    },
+    {
+      "uuid": "TECLN",
+      "id": 5527,
+      "account_id": "ACC005",
+      "reference_date": "2025-03-01",
+      "type": "QuickBooks Core",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.05,
+          "comment": "Outstanding results achieved"
+        },
+        {
+          "grade": "F",
+          "score": 1.79,
+          "comment": "Showing steady improvement"
+        }
+      ]
+    },
+    {
+      "uuid": "XE3I9",
+      "id": 2920,
+      "account_id": "ACC005",
+      "reference_date": "2025-04-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "C",
+          "score": 3.47,
+          "comment": "Excellent performance this period"
+        },
+        {
+          "grade": "D",
+          "score": 2.91,
+          "comment": "Area requires focus"
+        }
+      ]
+    },
+    {
+      "uuid": "IKN0O",
+      "id": 6900,
+      "account_id": "ACC005",
+      "reference_date": "2025-04-01",
+      "type": "Custom Agency",
+      "sections": [
+        {
+          "grade": "A",
+          "score": 4.14,
+          "comment": "Meeting expectations consistently"
+        },
+        {
+          "grade": "C",
+          "score": 3.06,
+          "comment": "Needs some attention"
+        }
+      ]
+    },
+    {
+      "uuid": "8WQ6Q",
+      "id": 7424,
+      "account_id": "ACC005",
+      "reference_date": "2025-05-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.29,
+          "comment": "Showing steady improvement"
+        },
+        {
+          "grade": "A+",
+          "score": 4.74,
+          "comment": "Meeting expectations consistently"
+        }
+      ]
+    },
+    {
+      "uuid": "ULPJ8",
+      "id": 9781,
+      "account_id": "ACC005",
+      "reference_date": "2025-05-01",
+      "type": "QuickBooks Core",
+      "sections": [
+        {
+          "grade": "A",
+          "score": 4.21,
+          "comment": "On track for goals"
+        },
+        {
+          "grade": "F",
+          "score": 1.73,
+          "comment": "Meeting expectations consistently"
+        }
+      ]
+    },
+    {
+      "uuid": "PCQ47",
+      "id": 6633,
+      "account_id": "ACC005",
+      "reference_date": "2025-05-01",
+      "type": "Custom Agency",
+      "sections": [
+        {
+          "grade": "C",
+          "score": 3.12,
+          "comment": "On track for goals"
+        },
+        {
+          "grade": "A",
+          "score": 4.35,
+          "comment": "Showing steady improvement"
+        }
+      ]
+    },
+    {
+      "uuid": "7HUKN",
+      "id": 9683,
+      "account_id": "ACC005",
+      "reference_date": "2025-06-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.26,
+          "comment": "Outstanding results achieved"
+        },
+        {
+          "grade": "A",
+          "score": 4.08,
+          "comment": "Area requires focus"
+        }
+      ]
+    },
+    {
+      "uuid": "989B0",
+      "id": 7517,
+      "account_id": "ACC005",
+      "reference_date": "2025-06-01",
+      "type": "QuickBooks Core",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.6,
+          "comment": "Excellent performance this period"
+        },
+        {
+          "grade": "F",
+          "score": 1.87,
+          "comment": "Outstanding results achieved"
+        }
+      ]
+    },
+    {
+      "uuid": "N74H0",
+      "id": 8573,
+      "account_id": "ACC005",
+      "reference_date": "2025-06-01",
+      "type": "Custom Agency",
+      "sections": [
+        {
+          "grade": "A+",
+          "score": 4.83,
+          "comment": "On track for goals"
+        },
+        {
+          "grade": "A",
+          "score": 4.11,
+          "comment": "Excellent performance this period"
+        }
+      ]
+    },
+    {
+      "uuid": "6PBEC",
+      "id": 5207,
+      "account_id": "ACC005",
+      "reference_date": "2025-07-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "A",
+          "score": 4.45,
+          "comment": "Excellent performance this period"
+        },
+        {
+          "grade": "F",
+          "score": 1.62,
+          "comment": "Meeting expectations consistently"
+        }
+      ]
+    },
+    {
+      "uuid": "8PUO8",
+      "id": 2168,
+      "account_id": "ACC005",
+      "reference_date": "2025-08-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "A",
+          "score": 4.29,
+          "comment": "Good progress overall"
+        },
+        {
+          "grade": "A+",
+          "score": 4.64,
+          "comment": "On track for goals"
+        }
+      ]
+    },
+    {
+      "uuid": "XQ8LR",
+      "id": 1180,
+      "account_id": "ACC005",
+      "reference_date": "2025-09-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "B",
+          "score": 3.84,
+          "comment": "Excellent performance this period"
+        },
+        {
+          "grade": "A+",
+          "score": 4.93,
+          "comment": "On track for goals"
+        }
+      ]
+    },
+    {
+      "uuid": "XTDC8",
+      "id": 3794,
+      "account_id": "ACC005",
+      "reference_date": "2025-10-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "A",
+          "score": 4.35,
+          "comment": "Good progress overall"
+        },
+        {
+          "grade": "F",
+          "score": 1.74,
+          "comment": "Excellent performance this period"
+        }
+      ]
+    },
+    {
+      "uuid": "GOYIG",
+      "id": 4749,
+      "account_id": "ACC005",
+      "reference_date": "2025-10-01",
+      "type": "QuickBooks Core",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.27,
+          "comment": "Area requires focus"
+        },
+        {
+          "grade": "F",
+          "score": 1.38,
+          "comment": "Outstanding results achieved"
+        }
+      ]
+    },
+    {
+      "uuid": "ILIGV",
+      "id": 5507,
+      "account_id": "ACC005",
+      "reference_date": "2025-10-01",
+      "type": "Custom Agency",
+      "sections": [
+        {
+          "grade": "A",
+          "score": 4.41,
+          "comment": "Needs some attention"
+        },
+        {
+          "grade": "F",
+          "score": 1.17,
+          "comment": "Outstanding results achieved"
+        }
+      ]
+    },
+    {
+      "uuid": "Z8NDN",
+      "id": 2473,
+      "account_id": "ACC006",
+      "reference_date": "2025-01-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "B",
+          "score": 3.61,
+          "comment": "Outstanding results achieved"
+        },
+        {
+          "grade": "D",
+          "score": 2.75,
+          "comment": "Area requires focus"
+        }
+      ]
+    },
+    {
+      "uuid": "6WDKH",
+      "id": 7142,
+      "account_id": "ACC006",
+      "reference_date": "2025-02-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "A+",
+          "score": 4.8,
+          "comment": "Outstanding results achieved"
+        },
+        {
+          "grade": "A",
+          "score": 4.14,
+          "comment": "Exceeding targets"
+        }
+      ]
+    },
+    {
+      "uuid": "PQDMU",
+      "id": 1978,
+      "account_id": "ACC006",
+      "reference_date": "2025-02-01",
+      "type": "QuickBooks Core",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.12,
+          "comment": "Exceeding targets"
+        },
+        {
+          "grade": "C",
+          "score": 3.22,
+          "comment": "Showing steady improvement"
+        }
+      ]
+    },
+    {
+      "uuid": "E13EV",
+      "id": 3029,
+      "account_id": "ACC006",
+      "reference_date": "2025-03-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "A",
+          "score": 4.19,
+          "comment": "Meeting expectations consistently"
+        },
+        {
+          "grade": "B",
+          "score": 3.51,
+          "comment": "Room for improvement"
+        }
+      ]
+    },
+    {
+      "uuid": "TWL7W",
+      "id": 2776,
+      "account_id": "ACC006",
+      "reference_date": "2025-03-01",
+      "type": "Custom Agency",
+      "sections": [
+        {
+          "grade": "C",
+          "score": 3.16,
+          "comment": "Needs some attention"
+        },
+        {
+          "grade": "C",
+          "score": 3.46,
+          "comment": "Room for improvement"
+        }
+      ]
+    },
+    {
+      "uuid": "GJYSV",
+      "id": 5343,
+      "account_id": "ACC006",
+      "reference_date": "2025-04-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "A+",
+          "score": 4.75,
+          "comment": "Area requires focus"
+        },
+        {
+          "grade": "D",
+          "score": 2.35,
+          "comment": "Needs some attention"
+        }
+      ]
+    },
+    {
+      "uuid": "4ZONT",
+      "id": 1744,
+      "account_id": "ACC006",
+      "reference_date": "2025-04-01",
+      "type": "Custom Agency",
+      "sections": [
+        {
+          "grade": "A",
+          "score": 4.37,
+          "comment": "Excellent performance this period"
+        },
+        {
+          "grade": "A+",
+          "score": 4.71,
+          "comment": "Outstanding results achieved"
+        }
+      ]
+    },
+    {
+      "uuid": "MGSMU",
+      "id": 1345,
+      "account_id": "ACC006",
+      "reference_date": "2025-05-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "C",
+          "score": 3.19,
+          "comment": "Area requires focus"
+        },
+        {
+          "grade": "C",
+          "score": 3.04,
+          "comment": "Area requires focus"
+        }
+      ]
+    },
+    {
+      "uuid": "MB720",
+      "id": 3395,
+      "account_id": "ACC006",
+      "reference_date": "2025-06-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.55,
+          "comment": "Meeting expectations consistently"
+        },
+        {
+          "grade": "B",
+          "score": 3.69,
+          "comment": "Meeting expectations consistently"
+        }
+      ]
+    },
+    {
+      "uuid": "SOF63",
+      "id": 2464,
+      "account_id": "ACC006",
+      "reference_date": "2025-06-01",
+      "type": "Custom Agency",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.4,
+          "comment": "Room for improvement"
+        },
+        {
+          "grade": "A",
+          "score": 4.48,
+          "comment": "Area requires focus"
+        }
+      ]
+    },
+    {
+      "uuid": "4NQJW",
+      "id": 7875,
+      "account_id": "ACC006",
+      "reference_date": "2025-07-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.4,
+          "comment": "Needs some attention"
+        },
+        {
+          "grade": "D",
+          "score": 2.81,
+          "comment": "On track for goals"
+        }
+      ]
+    },
+    {
+      "uuid": "62UX0",
+      "id": 1555,
+      "account_id": "ACC006",
+      "reference_date": "2025-07-01",
+      "type": "QuickBooks Core",
+      "sections": [
+        {
+          "grade": "C",
+          "score": 3.4,
+          "comment": "Good progress overall"
+        },
+        {
+          "grade": "A+",
+          "score": 4.66,
+          "comment": "Excellent performance this period"
+        }
+      ]
+    },
+    {
+      "uuid": "GEUQ3",
+      "id": 9534,
+      "account_id": "ACC006",
+      "reference_date": "2025-07-01",
+      "type": "Custom Agency",
+      "sections": [
+        {
+          "grade": "C",
+          "score": 3.13,
+          "comment": "Needs some attention"
+        },
+        {
+          "grade": "A",
+          "score": 4.29,
+          "comment": "Meeting expectations consistently"
+        }
+      ]
+    },
+    {
+      "uuid": "7M998",
+      "id": 9910,
+      "account_id": "ACC006",
+      "reference_date": "2025-08-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.76,
+          "comment": "Meeting expectations consistently"
+        },
+        {
+          "grade": "A",
+          "score": 4.35,
+          "comment": "Room for improvement"
+        }
+      ]
+    },
+    {
+      "uuid": "5WKKV",
+      "id": 9923,
+      "account_id": "ACC006",
+      "reference_date": "2025-08-01",
+      "type": "Custom Agency",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.18,
+          "comment": "Exceeding targets"
+        },
+        {
+          "grade": "A",
+          "score": 4.02,
+          "comment": "On track for goals"
+        }
+      ]
+    },
+    {
+      "uuid": "8QGDO",
+      "id": 7370,
+      "account_id": "ACC006",
+      "reference_date": "2025-09-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.33,
+          "comment": "Room for improvement"
+        },
+        {
+          "grade": "B",
+          "score": 3.82,
+          "comment": "Good progress overall"
+        }
+      ]
+    },
+    {
+      "uuid": "MYE0C",
+      "id": 5532,
+      "account_id": "ACC006",
+      "reference_date": "2025-09-01",
+      "type": "QuickBooks Core",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.41,
+          "comment": "Needs some attention"
+        },
+        {
+          "grade": "D",
+          "score": 2.13,
+          "comment": "Exceeding targets"
+        }
+      ]
+    },
+    {
+      "uuid": "7UU0D",
+      "id": 6055,
+      "account_id": "ACC006",
+      "reference_date": "2025-10-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "A+",
+          "score": 4.91,
+          "comment": "Meeting expectations consistently"
+        },
+        {
+          "grade": "C",
+          "score": 3.1,
+          "comment": "Good progress overall"
+        }
+      ]
+    },
+    {
+      "uuid": "PWZHP",
+      "id": 4541,
+      "account_id": "ACC006",
+      "reference_date": "2025-10-01",
+      "type": "QuickBooks Core",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.75,
+          "comment": "Outstanding results achieved"
+        },
+        {
+          "grade": "C",
+          "score": 3.17,
+          "comment": "Exceeding targets"
+        }
+      ]
+    },
+    {
+      "uuid": "KGMTL",
+      "id": 1782,
+      "account_id": "ACC006",
+      "reference_date": "2025-10-01",
+      "type": "Custom Agency",
+      "sections": [
+        {
+          "grade": "C",
+          "score": 3.4,
+          "comment": "On track for goals"
+        },
+        {
+          "grade": "D",
+          "score": 2.15,
+          "comment": "Area requires focus"
+        }
+      ]
+    },
+    {
+      "uuid": "VJVCU",
+      "id": 7434,
+      "account_id": "ACC007",
+      "reference_date": "2025-01-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.11,
+          "comment": "Needs some attention"
+        },
+        {
+          "grade": "F",
+          "score": 1.15,
+          "comment": "Room for improvement"
+        }
+      ]
+    },
+    {
+      "uuid": "02AE2",
+      "id": 7598,
+      "account_id": "ACC007",
+      "reference_date": "2025-01-01",
+      "type": "Custom Agency",
+      "sections": [
+        {
+          "grade": "A+",
+          "score": 4.87,
+          "comment": "Showing steady improvement"
+        },
+        {
+          "grade": "A+",
+          "score": 4.71,
+          "comment": "Area requires focus"
+        }
+      ]
+    },
+    {
+      "uuid": "ZEWXS",
+      "id": 5832,
+      "account_id": "ACC007",
+      "reference_date": "2025-02-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "C",
+          "score": 3.4,
+          "comment": "Good progress overall"
+        },
+        {
+          "grade": "A+",
+          "score": 4.98,
+          "comment": "On track for goals"
+        }
+      ]
+    },
+    {
+      "uuid": "BYE8S",
+      "id": 7183,
+      "account_id": "ACC007",
+      "reference_date": "2025-02-01",
+      "type": "Custom Agency",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.45,
+          "comment": "On track for goals"
+        },
+        {
+          "grade": "C",
+          "score": 3.47,
+          "comment": "Exceeding targets"
+        }
+      ]
+    },
+    {
+      "uuid": "3XKN4",
+      "id": 6691,
+      "account_id": "ACC007",
+      "reference_date": "2025-03-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.35,
+          "comment": "Area requires focus"
+        },
+        {
+          "grade": "B",
+          "score": 3.7,
+          "comment": "Exceeding targets"
+        }
+      ]
+    },
+    {
+      "uuid": "RQA8M",
+      "id": 4657,
+      "account_id": "ACC007",
+      "reference_date": "2025-04-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "C",
+          "score": 3.38,
+          "comment": "Needs some attention"
+        },
+        {
+          "grade": "D",
+          "score": 2.11,
+          "comment": "On track for goals"
+        }
+      ]
+    },
+    {
+      "uuid": "U2QT3",
+      "id": 6703,
+      "account_id": "ACC007",
+      "reference_date": "2025-04-01",
+      "type": "QuickBooks Core",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.16,
+          "comment": "Exceeding targets"
+        },
+        {
+          "grade": "D",
+          "score": 2.82,
+          "comment": "Excellent performance this period"
+        }
+      ]
+    },
+    {
+      "uuid": "0EX1U",
+      "id": 5791,
+      "account_id": "ACC007",
+      "reference_date": "2025-04-01",
+      "type": "Custom Agency",
+      "sections": [
+        {
+          "grade": "A",
+          "score": 4.19,
+          "comment": "Room for improvement"
+        },
+        {
+          "grade": "D",
+          "score": 2.46,
+          "comment": "On track for goals"
+        }
+      ]
+    },
+    {
+      "uuid": "Q3RND",
+      "id": 5533,
+      "account_id": "ACC007",
+      "reference_date": "2025-05-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.99,
+          "comment": "Outstanding results achieved"
+        },
+        {
+          "grade": "F",
+          "score": 1.07,
+          "comment": "On track for goals"
+        }
+      ]
+    },
+    {
+      "uuid": "6VXOM",
+      "id": 7794,
+      "account_id": "ACC007",
+      "reference_date": "2025-06-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.9,
+          "comment": "Exceeding targets"
+        },
+        {
+          "grade": "B",
+          "score": 3.67,
+          "comment": "Exceeding targets"
+        }
+      ]
+    },
+    {
+      "uuid": "8S8G5",
+      "id": 8381,
+      "account_id": "ACC007",
+      "reference_date": "2025-06-01",
+      "type": "QuickBooks Core",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.74,
+          "comment": "Area requires focus"
+        },
+        {
+          "grade": "A+",
+          "score": 4.55,
+          "comment": "Good progress overall"
+        }
+      ]
+    },
+    {
+      "uuid": "7SD07",
+      "id": 4198,
+      "account_id": "ACC007",
+      "reference_date": "2025-07-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "A+",
+          "score": 4.73,
+          "comment": "Good progress overall"
+        },
+        {
+          "grade": "B",
+          "score": 3.93,
+          "comment": "Room for improvement"
+        }
+      ]
+    },
+    {
+      "uuid": "672F2",
+      "id": 8995,
+      "account_id": "ACC007",
+      "reference_date": "2025-07-01",
+      "type": "QuickBooks Core",
+      "sections": [
+        {
+          "grade": "A",
+          "score": 4.27,
+          "comment": "Exceeding targets"
+        },
+        {
+          "grade": "C",
+          "score": 3.18,
+          "comment": "Outstanding results achieved"
+        }
+      ]
+    },
+    {
+      "uuid": "OP0QG",
+      "id": 1992,
+      "account_id": "ACC007",
+      "reference_date": "2025-08-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.85,
+          "comment": "Exceeding targets"
+        },
+        {
+          "grade": "F",
+          "score": 1.01,
+          "comment": "Needs some attention"
+        }
+      ]
+    },
+    {
+      "uuid": "6335V",
+      "id": 2688,
+      "account_id": "ACC007",
+      "reference_date": "2025-08-01",
+      "type": "Custom Agency",
+      "sections": [
+        {
+          "grade": "B",
+          "score": 3.5,
+          "comment": "Exceeding targets"
+        },
+        {
+          "grade": "A+",
+          "score": 4.63,
+          "comment": "Excellent performance this period"
+        }
+      ]
+    },
+    {
+      "uuid": "AJP4Y",
+      "id": 6766,
+      "account_id": "ACC007",
+      "reference_date": "2025-09-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.13,
+          "comment": "Area requires focus"
+        },
+        {
+          "grade": "D",
+          "score": 2.14,
+          "comment": "Outstanding results achieved"
+        }
+      ]
+    },
+    {
+      "uuid": "36XXP",
+      "id": 9499,
+      "account_id": "ACC007",
+      "reference_date": "2025-10-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.89,
+          "comment": "Area requires focus"
+        },
+        {
+          "grade": "A",
+          "score": 4.24,
+          "comment": "Showing steady improvement"
+        }
+      ]
+    },
+    {
+      "uuid": "SKD7N",
+      "id": 3932,
+      "account_id": "ACC007",
+      "reference_date": "2025-10-01",
+      "type": "Custom Agency",
+      "sections": [
+        {
+          "grade": "C",
+          "score": 3.46,
+          "comment": "Area requires focus"
+        },
+        {
+          "grade": "C",
+          "score": 3.21,
+          "comment": "On track for goals"
+        }
+      ]
+    },
+    {
+      "uuid": "7JGOZ",
+      "id": 9498,
+      "account_id": "ACC008",
+      "reference_date": "2025-01-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.75,
+          "comment": "Area requires focus"
+        },
+        {
+          "grade": "F",
+          "score": 1.62,
+          "comment": "Area requires focus"
+        }
+      ]
+    },
+    {
+      "uuid": "0J931",
+      "id": 2567,
+      "account_id": "ACC008",
+      "reference_date": "2025-01-01",
+      "type": "QuickBooks Core",
+      "sections": [
+        {
+          "grade": "A",
+          "score": 4.47,
+          "comment": "Room for improvement"
+        },
+        {
+          "grade": "A+",
+          "score": 4.69,
+          "comment": "Outstanding results achieved"
+        }
+      ]
+    },
+    {
+      "uuid": "5MT2Z",
+      "id": 7880,
+      "account_id": "ACC008",
+      "reference_date": "2025-02-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "A+",
+          "score": 4.68,
+          "comment": "Outstanding results achieved"
+        },
+        {
+          "grade": "B",
+          "score": 3.58,
+          "comment": "Outstanding results achieved"
+        }
+      ]
+    },
+    {
+      "uuid": "42DNT",
+      "id": 8981,
+      "account_id": "ACC008",
+      "reference_date": "2025-03-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "C",
+          "score": 3.23,
+          "comment": "Meeting expectations consistently"
+        },
+        {
+          "grade": "D",
+          "score": 2.38,
+          "comment": "Exceeding targets"
+        }
+      ]
+    },
+    {
+      "uuid": "C12M4",
+      "id": 8685,
+      "account_id": "ACC008",
+      "reference_date": "2025-03-01",
+      "type": "QuickBooks Core",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.1,
+          "comment": "Room for improvement"
+        },
+        {
+          "grade": "A",
+          "score": 4.49,
+          "comment": "Meeting expectations consistently"
+        }
+      ]
+    },
+    {
+      "uuid": "W1BME",
+      "id": 6711,
+      "account_id": "ACC008",
+      "reference_date": "2025-04-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.83,
+          "comment": "Room for improvement"
+        },
+        {
+          "grade": "D",
+          "score": 2.41,
+          "comment": "On track for goals"
+        }
+      ]
+    },
+    {
+      "uuid": "DUPO8",
+      "id": 7852,
+      "account_id": "ACC008",
+      "reference_date": "2025-05-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "A+",
+          "score": 4.87,
+          "comment": "Needs some attention"
+        },
+        {
+          "grade": "C",
+          "score": 3.28,
+          "comment": "Meeting expectations consistently"
+        }
+      ]
+    },
+    {
+      "uuid": "N7C56",
+      "id": 2941,
+      "account_id": "ACC008",
+      "reference_date": "2025-05-01",
+      "type": "QuickBooks Core",
+      "sections": [
+        {
+          "grade": "A+",
+          "score": 4.7,
+          "comment": "Needs some attention"
+        },
+        {
+          "grade": "F",
+          "score": 1.21,
+          "comment": "On track for goals"
+        }
+      ]
+    },
+    {
+      "uuid": "R369G",
+      "id": 8775,
+      "account_id": "ACC008",
+      "reference_date": "2025-06-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "A",
+          "score": 4.44,
+          "comment": "Outstanding results achieved"
+        },
+        {
+          "grade": "F",
+          "score": 1.35,
+          "comment": "Room for improvement"
+        }
+      ]
+    },
+    {
+      "uuid": "LSE0C",
+      "id": 1423,
+      "account_id": "ACC008",
+      "reference_date": "2025-06-01",
+      "type": "QuickBooks Core",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.62,
+          "comment": "Excellent performance this period"
+        },
+        {
+          "grade": "B",
+          "score": 3.56,
+          "comment": "Room for improvement"
+        }
+      ]
+    },
+    {
+      "uuid": "VZILT",
+      "id": 1290,
+      "account_id": "ACC008",
+      "reference_date": "2025-06-01",
+      "type": "Custom Agency",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.03,
+          "comment": "Room for improvement"
+        },
+        {
+          "grade": "C",
+          "score": 3.39,
+          "comment": "Exceeding targets"
+        }
+      ]
+    },
+    {
+      "uuid": "XD7HB",
+      "id": 3341,
+      "account_id": "ACC008",
+      "reference_date": "2025-07-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "C",
+          "score": 3.0,
+          "comment": "Showing steady improvement"
+        },
+        {
+          "grade": "B",
+          "score": 3.86,
+          "comment": "Good progress overall"
+        }
+      ]
+    },
+    {
+      "uuid": "K209X",
+      "id": 2452,
+      "account_id": "ACC008",
+      "reference_date": "2025-08-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "C",
+          "score": 3.03,
+          "comment": "Good progress overall"
+        },
+        {
+          "grade": "A",
+          "score": 4.13,
+          "comment": "Meeting expectations consistently"
+        }
+      ]
+    },
+    {
+      "uuid": "GRR8S",
+      "id": 7714,
+      "account_id": "ACC008",
+      "reference_date": "2025-08-01",
+      "type": "Custom Agency",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.93,
+          "comment": "Meeting expectations consistently"
+        },
+        {
+          "grade": "F",
+          "score": 1.78,
+          "comment": "Good progress overall"
+        }
+      ]
+    },
+    {
+      "uuid": "MX55I",
+      "id": 3894,
+      "account_id": "ACC008",
+      "reference_date": "2025-09-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.75,
+          "comment": "Outstanding results achieved"
+        },
+        {
+          "grade": "F",
+          "score": 1.02,
+          "comment": "Showing steady improvement"
+        }
+      ]
+    },
+    {
+      "uuid": "RKS9S",
+      "id": 3968,
+      "account_id": "ACC008",
+      "reference_date": "2025-09-01",
+      "type": "QuickBooks Core",
+      "sections": [
+        {
+          "grade": "A",
+          "score": 4.12,
+          "comment": "Outstanding results achieved"
+        },
+        {
+          "grade": "B",
+          "score": 3.8,
+          "comment": "Showing steady improvement"
+        }
+      ]
+    },
+    {
+      "uuid": "8MOV4",
+      "id": 1315,
+      "account_id": "ACC008",
+      "reference_date": "2025-09-01",
+      "type": "Custom Agency",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.82,
+          "comment": "Showing steady improvement"
+        },
+        {
+          "grade": "A+",
+          "score": 4.73,
+          "comment": "Outstanding results achieved"
+        }
+      ]
+    },
+    {
+      "uuid": "9LW2J",
+      "id": 4680,
+      "account_id": "ACC008",
+      "reference_date": "2025-10-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.09,
+          "comment": "Excellent performance this period"
+        },
+        {
+          "grade": "C",
+          "score": 3.46,
+          "comment": "On track for goals"
+        }
+      ]
+    },
+    {
+      "uuid": "PSF6M",
+      "id": 3091,
+      "account_id": "ACC009",
+      "reference_date": "2025-01-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "C",
+          "score": 3.1,
+          "comment": "Exceeding targets"
+        },
+        {
+          "grade": "F",
+          "score": 1.19,
+          "comment": "On track for goals"
+        }
+      ]
+    },
+    {
+      "uuid": "9VVDB",
+      "id": 2806,
+      "account_id": "ACC009",
+      "reference_date": "2025-01-01",
+      "type": "QuickBooks Core",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.8,
+          "comment": "Exceeding targets"
+        },
+        {
+          "grade": "A",
+          "score": 4.01,
+          "comment": "Meeting expectations consistently"
+        }
+      ]
+    },
+    {
+      "uuid": "V8YSF",
+      "id": 1715,
+      "account_id": "ACC009",
+      "reference_date": "2025-02-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.09,
+          "comment": "Excellent performance this period"
+        },
+        {
+          "grade": "D",
+          "score": 2.74,
+          "comment": "Outstanding results achieved"
+        }
+      ]
+    },
+    {
+      "uuid": "2QRBX",
+      "id": 6544,
+      "account_id": "ACC009",
+      "reference_date": "2025-02-01",
+      "type": "Custom Agency",
+      "sections": [
+        {
+          "grade": "A",
+          "score": 4.17,
+          "comment": "Meeting expectations consistently"
+        },
+        {
+          "grade": "A+",
+          "score": 4.82,
+          "comment": "Room for improvement"
+        }
+      ]
+    },
+    {
+      "uuid": "R6FDM",
+      "id": 5459,
+      "account_id": "ACC009",
+      "reference_date": "2025-03-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.32,
+          "comment": "Good progress overall"
+        },
+        {
+          "grade": "A+",
+          "score": 4.78,
+          "comment": "Excellent performance this period"
+        }
+      ]
+    },
+    {
+      "uuid": "3D41I",
+      "id": 1434,
+      "account_id": "ACC009",
+      "reference_date": "2025-03-01",
+      "type": "QuickBooks Core",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.95,
+          "comment": "Exceeding targets"
+        },
+        {
+          "grade": "A+",
+          "score": 4.82,
+          "comment": "Good progress overall"
+        }
+      ]
+    },
+    {
+      "uuid": "Q8CRN",
+      "id": 1058,
+      "account_id": "ACC009",
+      "reference_date": "2025-03-01",
+      "type": "Custom Agency",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.1,
+          "comment": "Meeting expectations consistently"
+        },
+        {
+          "grade": "A",
+          "score": 4.05,
+          "comment": "Needs some attention"
+        }
+      ]
+    },
+    {
+      "uuid": "JHNJZ",
+      "id": 1051,
+      "account_id": "ACC009",
+      "reference_date": "2025-04-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "A+",
+          "score": 4.94,
+          "comment": "On track for goals"
+        },
+        {
+          "grade": "B",
+          "score": 3.78,
+          "comment": "Excellent performance this period"
+        }
+      ]
+    },
+    {
+      "uuid": "4RBMB",
+      "id": 4019,
+      "account_id": "ACC009",
+      "reference_date": "2025-04-01",
+      "type": "Custom Agency",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.23,
+          "comment": "Room for improvement"
+        },
+        {
+          "grade": "D",
+          "score": 2.67,
+          "comment": "On track for goals"
+        }
+      ]
+    },
+    {
+      "uuid": "IRQYT",
+      "id": 7938,
+      "account_id": "ACC009",
+      "reference_date": "2025-05-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "A+",
+          "score": 4.64,
+          "comment": "Good progress overall"
+        },
+        {
+          "grade": "B",
+          "score": 3.95,
+          "comment": "Showing steady improvement"
+        }
+      ]
+    },
+    {
+      "uuid": "MMHFW",
+      "id": 1578,
+      "account_id": "ACC009",
+      "reference_date": "2025-05-01",
+      "type": "QuickBooks Core",
+      "sections": [
+        {
+          "grade": "A",
+          "score": 4.2,
+          "comment": "Meeting expectations consistently"
+        },
+        {
+          "grade": "F",
+          "score": 1.88,
+          "comment": "Exceeding targets"
+        }
+      ]
+    },
+    {
+      "uuid": "OVEDC",
+      "id": 9466,
+      "account_id": "ACC009",
+      "reference_date": "2025-05-01",
+      "type": "Custom Agency",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.22,
+          "comment": "Exceeding targets"
+        },
+        {
+          "grade": "D",
+          "score": 2.68,
+          "comment": "On track for goals"
+        }
+      ]
+    },
+    {
+      "uuid": "OS97Z",
+      "id": 6321,
+      "account_id": "ACC009",
+      "reference_date": "2025-06-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.53,
+          "comment": "Showing steady improvement"
+        },
+        {
+          "grade": "F",
+          "score": 1.56,
+          "comment": "Good progress overall"
+        }
+      ]
+    },
+    {
+      "uuid": "O4SE7",
+      "id": 8419,
+      "account_id": "ACC009",
+      "reference_date": "2025-06-01",
+      "type": "QuickBooks Core",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.96,
+          "comment": "Showing steady improvement"
+        },
+        {
+          "grade": "D",
+          "score": 2.73,
+          "comment": "Good progress overall"
+        }
+      ]
+    },
+    {
+      "uuid": "67E1S",
+      "id": 7917,
+      "account_id": "ACC009",
+      "reference_date": "2025-07-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "A",
+          "score": 4.31,
+          "comment": "Exceeding targets"
+        },
+        {
+          "grade": "D",
+          "score": 2.95,
+          "comment": "Outstanding results achieved"
+        }
+      ]
+    },
+    {
+      "uuid": "TJRDM",
+      "id": 9686,
+      "account_id": "ACC009",
+      "reference_date": "2025-08-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.66,
+          "comment": "Meeting expectations consistently"
+        },
+        {
+          "grade": "F",
+          "score": 1.65,
+          "comment": "Needs some attention"
+        }
+      ]
+    },
+    {
+      "uuid": "MMKCA",
+      "id": 9889,
+      "account_id": "ACC009",
+      "reference_date": "2025-09-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "A+",
+          "score": 4.93,
+          "comment": "On track for goals"
+        },
+        {
+          "grade": "F",
+          "score": 1.18,
+          "comment": "Outstanding results achieved"
+        }
+      ]
+    },
+    {
+      "uuid": "ENGU8",
+      "id": 9283,
+      "account_id": "ACC009",
+      "reference_date": "2025-09-01",
+      "type": "Custom Agency",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.63,
+          "comment": "Excellent performance this period"
+        },
+        {
+          "grade": "C",
+          "score": 3.11,
+          "comment": "Exceeding targets"
+        }
+      ]
+    },
+    {
+      "uuid": "A9Q3V",
+      "id": 9125,
+      "account_id": "ACC009",
+      "reference_date": "2025-10-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.55,
+          "comment": "Needs some attention"
+        },
+        {
+          "grade": "A",
+          "score": 4.3,
+          "comment": "Exceeding targets"
+        }
+      ]
+    },
+    {
+      "uuid": "SXBRJ",
+      "id": 3914,
+      "account_id": "ACC009",
+      "reference_date": "2025-10-01",
+      "type": "QuickBooks Core",
+      "sections": [
+        {
+          "grade": "B",
+          "score": 3.53,
+          "comment": "Room for improvement"
+        },
+        {
+          "grade": "F",
+          "score": 1.06,
+          "comment": "Exceeding targets"
+        }
+      ]
+    },
+    {
+      "uuid": "GYJYI",
+      "id": 1069,
+      "account_id": "ACC010",
+      "reference_date": "2025-01-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "C",
+          "score": 3.43,
+          "comment": "Area requires focus"
+        },
+        {
+          "grade": "F",
+          "score": 1.13,
+          "comment": "Room for improvement"
+        }
+      ]
+    },
+    {
+      "uuid": "PLEI3",
+      "id": 4223,
+      "account_id": "ACC010",
+      "reference_date": "2025-02-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "A",
+          "score": 4.05,
+          "comment": "Outstanding results achieved"
+        },
+        {
+          "grade": "B",
+          "score": 3.59,
+          "comment": "Area requires focus"
+        }
+      ]
+    },
+    {
+      "uuid": "NLNX6",
+      "id": 1319,
+      "account_id": "ACC010",
+      "reference_date": "2025-03-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "B",
+          "score": 3.66,
+          "comment": "Showing steady improvement"
+        },
+        {
+          "grade": "D",
+          "score": 2.85,
+          "comment": "Outstanding results achieved"
+        }
+      ]
+    },
+    {
+      "uuid": "N2H0V",
+      "id": 1102,
+      "account_id": "ACC010",
+      "reference_date": "2025-03-01",
+      "type": "QuickBooks Core",
+      "sections": [
+        {
+          "grade": "A",
+          "score": 4.02,
+          "comment": "Room for improvement"
+        },
+        {
+          "grade": "F",
+          "score": 1.96,
+          "comment": "Needs some attention"
+        }
+      ]
+    },
+    {
+      "uuid": "J14OC",
+      "id": 8122,
+      "account_id": "ACC010",
+      "reference_date": "2025-03-01",
+      "type": "Custom Agency",
+      "sections": [
+        {
+          "grade": "A+",
+          "score": 4.7,
+          "comment": "Showing steady improvement"
+        },
+        {
+          "grade": "D",
+          "score": 2.16,
+          "comment": "On track for goals"
+        }
+      ]
+    },
+    {
+      "uuid": "MTIOI",
+      "id": 4879,
+      "account_id": "ACC010",
+      "reference_date": "2025-04-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.35,
+          "comment": "Needs some attention"
+        },
+        {
+          "grade": "A",
+          "score": 4.11,
+          "comment": "Area requires focus"
+        }
+      ]
+    },
+    {
+      "uuid": "M7QRH",
+      "id": 2446,
+      "account_id": "ACC010",
+      "reference_date": "2025-04-01",
+      "type": "QuickBooks Core",
+      "sections": [
+        {
+          "grade": "C",
+          "score": 3.41,
+          "comment": "Showing steady improvement"
+        },
+        {
+          "grade": "F",
+          "score": 1.04,
+          "comment": "Room for improvement"
+        }
+      ]
+    },
+    {
+      "uuid": "988CT",
+      "id": 4636,
+      "account_id": "ACC010",
+      "reference_date": "2025-04-01",
+      "type": "Custom Agency",
+      "sections": [
+        {
+          "grade": "C",
+          "score": 3.01,
+          "comment": "Outstanding results achieved"
+        },
+        {
+          "grade": "A+",
+          "score": 4.6,
+          "comment": "Exceeding targets"
+        }
+      ]
+    },
+    {
+      "uuid": "JOIAV",
+      "id": 4747,
+      "account_id": "ACC010",
+      "reference_date": "2025-05-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "A",
+          "score": 4.39,
+          "comment": "Showing steady improvement"
+        },
+        {
+          "grade": "F",
+          "score": 1.63,
+          "comment": "Exceeding targets"
+        }
+      ]
+    },
+    {
+      "uuid": "GMA14",
+      "id": 5286,
+      "account_id": "ACC010",
+      "reference_date": "2025-05-01",
+      "type": "Custom Agency",
+      "sections": [
+        {
+          "grade": "C",
+          "score": 3.42,
+          "comment": "Area requires focus"
+        },
+        {
+          "grade": "B",
+          "score": 3.52,
+          "comment": "Area requires focus"
+        }
+      ]
+    },
+    {
+      "uuid": "TUZI0",
+      "id": 1171,
+      "account_id": "ACC010",
+      "reference_date": "2025-06-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.45,
+          "comment": "Meeting expectations consistently"
+        },
+        {
+          "grade": "B",
+          "score": 3.55,
+          "comment": "Exceeding targets"
+        }
+      ]
+    },
+    {
+      "uuid": "W3MG8",
+      "id": 5350,
+      "account_id": "ACC010",
+      "reference_date": "2025-06-01",
+      "type": "Custom Agency",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.47,
+          "comment": "On track for goals"
+        },
+        {
+          "grade": "C",
+          "score": 3.22,
+          "comment": "Showing steady improvement"
+        }
+      ]
+    },
+    {
+      "uuid": "H6M4V",
+      "id": 8668,
+      "account_id": "ACC010",
+      "reference_date": "2025-07-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "A+",
+          "score": 4.97,
+          "comment": "Excellent performance this period"
+        },
+        {
+          "grade": "C",
+          "score": 3.24,
+          "comment": "Needs some attention"
+        }
+      ]
+    },
+    {
+      "uuid": "KYYMK",
+      "id": 7161,
+      "account_id": "ACC010",
+      "reference_date": "2025-07-01",
+      "type": "Custom Agency",
+      "sections": [
+        {
+          "grade": "A+",
+          "score": 4.62,
+          "comment": "Room for improvement"
+        },
+        {
+          "grade": "A+",
+          "score": 4.86,
+          "comment": "Room for improvement"
+        }
+      ]
+    },
+    {
+      "uuid": "QO6OR",
+      "id": 5787,
+      "account_id": "ACC010",
+      "reference_date": "2025-08-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "A",
+          "score": 4.29,
+          "comment": "On track for goals"
+        },
+        {
+          "grade": "D",
+          "score": 2.13,
+          "comment": "On track for goals"
+        }
+      ]
+    },
+    {
+      "uuid": "F7QZ6",
+      "id": 6268,
+      "account_id": "ACC010",
+      "reference_date": "2025-08-01",
+      "type": "Custom Agency",
+      "sections": [
+        {
+          "grade": "A+",
+          "score": 4.68,
+          "comment": "Outstanding results achieved"
+        },
+        {
+          "grade": "C",
+          "score": 3.48,
+          "comment": "Exceeding targets"
+        }
+      ]
+    },
+    {
+      "uuid": "INO9C",
+      "id": 6176,
+      "account_id": "ACC010",
+      "reference_date": "2025-09-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "A+",
+          "score": 4.51,
+          "comment": "Needs some attention"
+        },
+        {
+          "grade": "C",
+          "score": 3.1,
+          "comment": "Needs some attention"
+        }
+      ]
+    },
+    {
+      "uuid": "T1K3X",
+      "id": 9203,
+      "account_id": "ACC010",
+      "reference_date": "2025-09-01",
+      "type": "QuickBooks Core",
+      "sections": [
+        {
+          "grade": "A+",
+          "score": 4.93,
+          "comment": "Showing steady improvement"
+        },
+        {
+          "grade": "B",
+          "score": 3.86,
+          "comment": "Good progress overall"
+        }
+      ]
+    },
+    {
+      "uuid": "JM9HP",
+      "id": 6166,
+      "account_id": "ACC010",
+      "reference_date": "2025-10-01",
+      "type": "Funnel",
+      "sections": [
+        {
+          "grade": "F",
+          "score": 1.12,
+          "comment": "Room for improvement"
+        },
+        {
+          "grade": "D",
+          "score": 2.96,
+          "comment": "Meeting expectations consistently"
+        }
+      ]
+    },
+    {
+      "uuid": "DQRPJ",
+      "id": 6945,
+      "account_id": "ACC010",
+      "reference_date": "2025-10-01",
+      "type": "QuickBooks Core",
+      "sections": [
+        {
+          "grade": "D",
+          "score": 2.57,
+          "comment": "Exceeding targets"
+        },
+        {
+          "grade": "B",
+          "score": 3.88,
+          "comment": "Excellent performance this period"
+        }
+      ]
+    }
+  ]
+}
