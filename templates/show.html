@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block title %}Report Card Details{% endblock %}
+
+{% block content %}
+<h1>Report Card Details</h1>
+
+{% if error %}
+<div class="error">
+    {{ error }}
+</div>
+{% else %}
+
+<div class="card">
+    <h2>Report Card Information</h2>
+    <p><strong>UUID:</strong> {{ card.uuid }}</p>
+    <p><strong>ID:</strong> {{ card.id }}</p>
+    <p><strong>Type:</strong> {{ card.card_type }}</p>
+    
+    <h3>Parameters</h3>
+    <ul>
+        {% for key, value in card.parameters.items() %}
+        <li><strong>{{ key }}:</strong> {{ value }}</li>
+        {% endfor %}
+    </ul>
+    
+    <h3>Sections</h3>
+    {% for section in card.sections %}
+    <div class="section">
+        <h4>Section {{ loop.index }}</h4>
+        <p><strong>Letter Grade:</strong> {{ section.letter_grade }}</p>
+        <p><strong>Score:</strong> {{ "%.2f"|format(section.score) }}</p>
+        <p><strong>Comment:</strong> {{ section.comment }}</p>
+    </div>
+    {% endfor %}
+</div>
+
+{% endif %}
+
+<a href="{{ url_for('index') }}" class="back-link">Back to List</a>
+{% endblock %}
