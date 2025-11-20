@@ -1,0 +1,152 @@
+<div class="standards-based-report-card">
+  <h3>Standards-Based Assessment</h3>
+  
+  <div class="teacher-info">
+    <p><strong>Teacher:</strong> <%= report_card.teacher_name %></p>
+  </div>
+  
+  <% report_card.standards.each do |category| %>
+    <div class="standards-category">
+      <h4 class="category-name"><%= category["category"] %></h4>
+      
+      <table class="standards-table">
+        <thead>
+          <tr>
+            <th>Standard Code</th>
+            <th>Description</th>
+            <th>Proficiency Level</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% category["standards"].each do |standard| %>
+            <tr>
+              <td class="standard-code"><%= standard["code"] %></td>
+              <td><%= standard["description"] %></td>
+              <td>
+                <span class="proficiency-badge <%= standard["proficiency"].downcase.gsub(' ', '-') %>">
+                  <%= standard["proficiency"] %>
+                </span>
+              </td>
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
+    </div>
+  <% end %>
+  
+  <div class="proficiency-legend">
+    <h5>Proficiency Levels:</h5>
+    <ul>
+      <li><span class="proficiency-badge advanced">Advanced</span> - Exceeds grade level expectations</li>
+      <li><span class="proficiency-badge proficient">Proficient</span> - Meets grade level expectations</li>
+      <li><span class="proficiency-badge developing">Developing</span> - Progressing toward grade level expectations</li>
+      <li><span class="proficiency-badge beginning">Beginning</span> - Working to understand foundational concepts</li>
+    </ul>
+  </div>
+</div>
+
+<style>
+  .standards-based-report-card {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .teacher-info {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-left: 4px solid #673AB7;
+  }
+  
+  .standards-category {
+    margin-bottom: 30px;
+  }
+  
+  .category-name {
+    background-color: #673AB7;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 0;
+    border-radius: 3px;
+  }
+  
+  .standards-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .standards-table th {
+    background-color: #9575CD;
+    color: white;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .standards-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .standards-table tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .standard-code {
+    font-family: monospace;
+    font-weight: bold;
+    color: #673AB7;
+  }
+  
+  .proficiency-badge {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .proficiency-badge.advanced {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .proficiency-badge.proficient {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  .proficiency-badge.developing {
+    background-color: #FFC107;
+    color: #333;
+  }
+  
+  .proficiency-badge.beginning {
+    background-color: #FF9800;
+    color: white;
+  }
+  
+  .proficiency-legend {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  .proficiency-legend h5 {
+    margin-top: 0;
+    color: #673AB7;
+  }
+  
+  .proficiency-legend ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .proficiency-legend li {
+    margin-bottom: 8px;
+  }
+</style>
