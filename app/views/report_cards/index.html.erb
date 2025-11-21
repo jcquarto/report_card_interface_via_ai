@@ -1,26 +1,43 @@
-<div class="container">
-  <h1>Report Cards</h1>
-  
-  <div class="report-cards-list">
-    <% @report_cards.each do |report_card| %>
-      <div class="report-card-item">
-        <div class="card-header">
-          <h2><%= report_card.student_name %></h2>
-          <span class="badge <%= report_card.report_card_type %>">
-            <%= report_card.report_card_type.humanize %>
-          </span>
-        </div>
-        <div class="card-body">
-          <p><strong>ID:</strong> <%= report_card.uuid %></p>
-          <p><strong>Grade Level:</strong> <%= report_card.grade_level %></p>
-          <% if report_card.gpa %>
-            <p><strong>GPA:</strong> <%= report_card.gpa %></p>
-          <% end %>
-        </div>
-        <div class="card-footer">
-          <%= link_to 'View Details', report_card_path(report_card.uuid), class: 'btn btn-primary' %>
-        </div>
-      </div>
-    <% end %>
-  </div>
+<h1>Report Cards</h1>
+
+<div class="report-cards-list">
+  <% @report_cards.each do |report_card| %>
+    <div class="report-card-item">
+      <h3><%= link_to report_card.student_name, report_card_path(report_card.uuid) %></h3>
+      <p>
+        <strong>Grade Level:</strong> <%= report_card.grade_level %> |
+        <strong>Term:</strong> <%= report_card.term %> |
+        <strong>Type:</strong> <%= report_card.report_card_type.titleize %>
+      </p>
+      <p><strong>UUID:</strong> <%= report_card.uuid %></p>
+    </div>
+  <% end %>
 </div>
+
+<style>
+  .report-cards-list {
+    max-width: 800px;
+    margin: 20px auto;
+  }
+
+  .report-card-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+
+  .report-card-item h3 {
+    margin-top: 0;
+  }
+
+  .report-card-item a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+
+  .report-card-item a:hover {
+    text-decoration: underline;
+  }
+</style>

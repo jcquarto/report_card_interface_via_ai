@@ -1,80 +1,60 @@
 class ReportCard
-  attr_reader :uuid, :student_name, :report_card_type, :grade_level, :data
+  attr_reader :uuid, :report_card_type, :data
 
-  def initialize(attributes)
-    @uuid = attributes['uuid']
-    @student_name = attributes['student_name']
-    @report_card_type = attributes['report_card_type']
-    @grade_level = attributes['grade_level']
-    @data = attributes
+  def initialize(data)
+    @data = data
+    @uuid = data["uuid"]
+    @report_card_type = data["report_card_type"]
   end
 
-  def self.all
-    @all ||= load_report_cards
+  def student_name
+    @data["student_name"]
   end
 
-  def self.find(uuid)
-    all.find { |rc| rc.uuid == uuid }
+  def grade_level
+    @data["grade_level"]
   end
 
-  def self.load_report_cards
-    file_path = Rails.root.join('config', 'report_cards.json')
-    json_data = File.read(file_path)
-    cards_data = JSON.parse(json_data)
-    cards_data.map { |card| new(card) }
+  def term
+    @data["term"]
   end
 
-  # Elementary report card specific methods
-  def teacher
-    data['teacher']
-  end
-
+  # For standard report cards
   def subjects
-    data['subjects']
+    @data["subjects"] || []
   end
 
-  def attendance
-    data['attendance']
+  # For narrative report cards
+  def narrative_assessment
+    @data["narrative_assessment"]
   end
 
-  def overall_comments
-    data['overall_comments']
+  def teacher_name
+    @data["teacher_name"]
   end
 
-  # Middle and High School specific methods
-  def gpa
-    data['gpa']
+  def areas_of_strength
+    @data["areas_of_strength"] || []
   end
 
-  def weighted_gpa
-    data['weighted_gpa']
+  def areas_for_growth
+    @data["areas_for_growth"] || []
   end
 
-  def courses
-    data['courses']
+  # For standards-based report cards
+  def standards
+    @data["standards"] || []
   end
 
-  def class_rank
-    data['class_rank']
+  def standard?
+    report_card_type == "standard"
   end
 
-  def class_size
-    data['class_size']
+  def narrative?
+    report_card_type == "narrative"
   end
 
-  def test_scores
-    data['test_scores']
-  end
-
-  def conduct
-    data['conduct']
-  end
-
-  def principal_comments
-    data['principal_comments']
-  end
-
-  def counselor_comments
-    data['counselor_comments']
+  def standards_based?
+    report_card_type == "standards_based"
   end
 end
