@@ -5,7 +5,7 @@ class ReportCardsController < ApplicationController
 
   def show
     @report_card = ReportCardService.find_by_uuid(params[:id])
-    
+
     if @report_card.nil?
       redirect_to report_cards_path, alert: "Report card not found"
     end
